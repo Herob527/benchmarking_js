@@ -16,3 +16,7 @@ Co do Pythona:
 
 Dokumentacja benchmark
 https://benchmarkjs.com/
+
+Plany:
+- Zaktualizować plik sumNumbers.js, gdyż powstał zanim kombinowałem w tablicą WebAssembly
+- Dodać pliki w formacie JSON i CSV to osobistego przeglądu
