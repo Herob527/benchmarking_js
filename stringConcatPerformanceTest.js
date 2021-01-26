@@ -6,7 +6,7 @@ const benchmarkValues = new initializeBenchmark(2 ** 10);
 
 benchmarkValues._map(() => Math.round(Math.random() * 30).toString(30));
 
-const chunkAmount = 1;
+const chunkAmount = 512;
 const chunkedArray = benchmarkValues.chunkArray(chunkAmount)
 
 
@@ -53,12 +53,12 @@ for (let counter = 0; counter < chunkAmount; counter++) {
 	suite
 		.add('concat with reduce()', concatReduce)
 		.add('concat with join()', concatJoin)
-		/*.add('concat with toString()', concatToString)
+		.add('concat with toString()', concatToString)
 		.add('concat with for loop and + operator', concatFor)
 		.add('concat with for and concat function', concatForConcat)
 		.add('concat recursive with + operator', concatRecursive)
 		.add('concat tail recursive with + operator', concatTailRecursive)
-		.add('concat recursive with concat function', concatRecursiveUsingConcat)*/
+		.add('concat recursive with concat function', concatRecursiveUsingConcat)
 		.on('cycle', (ev) => {
 			console.log("\t", length, String(ev.target));
 		})
@@ -66,6 +66,6 @@ for (let counter = 0; counter < chunkAmount; counter++) {
 			const connect = new sendBenchmarkResultsToApiServer(ev, 'array_size', length);
 			connect._send('string_concat');
 		})
-		.run();
+		.run({async: true});
 }
 
