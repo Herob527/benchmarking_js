@@ -72,10 +72,16 @@ for (let sizeMultiplier = 1; sizeMultiplier <= testsAmount; sizeMultiplier++) {
 		.add('Uint32 sum for', sumWASMFor)
 		.add('Uint32 sum for of', sumWASMForOf)
 		.add('Uint32 sum recursive', sumWASMRecursive)
-		.on('cycle', event => console.log(`\t${len}: ${String(event.target)}`))
+		.on('cycle', (event) => {
+			console.log(`\t ${len} ${String(event.target)}`)
+			// Resetting values.
+			arrayForBenchmark._map(incrementingFunction);
+			wasmForBenchmark._map(incrementingFunction);
+
+		})
 		.on('complete', (event) => {
 			const connect = new sendBenchmarkResultsToApiServer(event, 'array_size', len)
 			connect._send("sum_numbers");
 		})
-		.run()
+		.run({async: true})
 }

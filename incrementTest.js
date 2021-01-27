@@ -60,6 +60,6 @@ for (let sizeMultiplier = 1; sizeMultiplier <= testsAmount; sizeMultiplier++) {
 			const conn = new sendBenchmarkResultsToApiServer(ev, 'array_size', len);
 			conn._send('return_incremented_array');
 		})
-		.run(/*{async: true}*/);
+		.run({async: true});
 }
 
