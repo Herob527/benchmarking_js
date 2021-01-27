@@ -2,25 +2,20 @@ import benchmark from "benchmark"
 import { sendBenchmarkResultsToApiServer } from "./sendBenchmarkResultsToApiServer.js";
 import { initializeBenchmark } from "./initializeBenchmark.js";
 
-const benchmarkValues = new initializeBenchmark(2 ** 10);
-
-benchmarkValues._map(() => Math.round(Math.random() * 30).toString(30));
-
-const chunkAmount = 512;
-const chunkedArray = benchmarkValues.chunkArray(chunkAmount)
+const testsAmount = 512;
 
 
-for (let counter = 0; counter < chunkAmount; counter++) {
+for (let sizeMultiplier = 1; sizeMultiplier < testsAmount; sizeMultiplier++) {
 	const suite = new benchmark.Suite;
-	let arrayForBenchmark = [];
-	for (let pushIndex = 0; pushIndex <= counter; pushIndex++) {
-		arrayForBenchmark.push(chunkedArray[pushIndex]);
-	}
-	arrayForBenchmark = arrayForBenchmark.flat(Infinity)
+	const len = sizeMultiplier * 2
 
-	const length = arrayForBenchmark.length;
-	const benchmarksIncoming = chunkAmount - counter - 1;
-	console.log(`\n${counter + 1} : Started benchmarking for ${length} ${length > 1 ? "elements" : "element"}. ${benchmarksIncoming} ${benchmarksIncoming > 1 ? "benchmarks" : "benchmark"} left to start`)
+	const arrayForBenchmark = new initializeBenchmark(len);
+	const incrementingFunction = (el, index) => (-index).toString(30);
+
+	arrayForBenchmark._map(incrementingFunction())
+
+	console.log(`${sizeMultiplier}. Benchmarking for ${len} values. ${testsAmount - sizeMultiplier} benchmarks left to start`);
+
 	const concatReduce = () => arrayForBenchmark.reduce((acc, cur) => acc + cur, "");
 	const concatJoin = () => arrayForBenchmark.join("");
 	const concatToString = () => arrayForBenchmark.toString().replace(/[,]+/g, '');
@@ -28,7 +23,7 @@ for (let counter = 0; counter < chunkAmount; counter++) {
 		"use strict"
 		let baseString = "";
 
-		for (let forIt = 0; forIt < length; forIt++) {
+		for (let forIt = 0; forIt < len; forIt++) {
 			baseString += arrayForBenchmark[forIt];
 		}
 		return baseString;
@@ -36,19 +31,19 @@ for (let counter = 0; counter < chunkAmount; counter++) {
 	const concatForConcat = () => {
 		"use strict"
 		let baseString = "";
-		for (let forIt = 0; forIt < length; forIt++) {
+		for (let forIt = 0; forIt < len; forIt++) {
 			baseString = baseString.concat(arrayForBenchmark[forIt]);
 		}
 		return baseString;
 	}
 	const concatRecursive = (baseStr = "", recIt = 0) => {
-		return recIt < length ? concatRecursive(baseStr + arrayForBenchmark[recIt], ++recIt) : baseStr
+		return recIt < len ? concatRecursive(baseStr + arrayForBenchmark[recIt], ++recIt) : baseStr
 	}
 	const concatRecursiveUsingConcat = (baseStr = "", recIt = 0) => {
-		return recIt < length ? concatRecursiveUsingConcat(baseStr.concat(arrayForBenchmark[recIt]), ++recIt) : baseStr
+		return recIt < len ? concatRecursiveUsingConcat(baseStr.concat(arrayForBenchmark[recIt]), ++recIt) : baseStr
 	}
 	const concatTailRecursive = (baseStr = "", recIt = 0) => {
-		return recIt >= length ? baseStr : concatRecursive(baseStr + arrayForBenchmark[recIt], ++recIt);
+		return recIt >= len ? baseStr : concatRecursive(baseStr + arrayForBenchmark[recIt], ++recIt);
 	}
 	suite
 		.add('concat with reduce()', concatReduce)
@@ -60,10 +55,12 @@ for (let counter = 0; counter < chunkAmount; counter++) {
 		.add('concat tail recursive with + operator', concatTailRecursive)
 		.add('concat recursive with concat function', concatRecursiveUsingConcat)
 		.on('cycle', (ev) => {
-			console.log("\t", length, String(ev.target));
+			// Resetting values;
+			arrayForBenchmark._map(incrementingFunction())
+			console.log("\t", len, String(ev.target));
 		})
 		.on('complete', (ev) => {
-			const connect = new sendBenchmarkResultsToApiServer(ev, 'array_size', length);
+			const connect = new sendBenchmarkResultsToApiServer(ev, 'array_size', len);
 			connect._send('string_concat');
 		})
 		.run({async: true});

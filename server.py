@@ -4,14 +4,16 @@ from flask_cors import CORS
 app = Flask(__name__)
 
 app.debug = True
+"""
 app.template_folder = 'some_menu_idea\\templates'
 app.static_folder = 'some_menu_idea\\static'
+"""
 CORS(app)
 
 
 @app.route('/')
-def render_index():
-    return render_template('index.html')
+def response():
+    return { "MSG": "Tu jeszcze nic nie ma"}
 
 
 if __name__ == "__main__":
