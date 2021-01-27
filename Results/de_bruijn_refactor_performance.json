@@ -1,0 +1,376 @@
+[{
+  "_id": {
+    "$oid": "5fe37e3ee26ecd0496cece7d"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE",
+      "length": 4
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 60961.987814683205,
+      "rme": 1.4890022576064783
+    },
+    "Performance_oriented": {
+      "performance": 90233.71628612788,
+      "rme": 0.8382998289588078
+    },
+    "Old": {
+      "performance": 79492.96528856171,
+      "rme": 0.5737513860691703
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37e3fe26ecd0496cece7f"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE",
+      "length": 1
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 1439581.0760317133,
+      "rme": 2.10624776329379
+    },
+    "Performance_oriented": {
+      "performance": 5429430.158041997,
+      "rme": 0.7390349981413176
+    },
+    "Old": {
+      "performance": 2698302.161266943,
+      "rme": 0.5118930535582147
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37e3fe26ecd0496cece81"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE",
+      "length": 2
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 579575.2167210431,
+      "rme": 2.300862163358611
+    },
+    "Performance_oriented": {
+      "performance": 1552651.2745987845,
+      "rme": 0.658407508951325
+    },
+    "Old": {
+      "performance": 1079468.6238343455,
+      "rme": 0.8149520706430858
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37e40e26ecd0496cece83"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE",
+      "length": 3
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 214149.98179783422,
+      "rme": 1.837178630352192
+    },
+    "Performance_oriented": {
+      "performance": 392028.70747684635,
+      "rme": 0.6903017145998604
+    },
+    "Old": {
+      "performance": 335621.07876467664,
+      "rme": 0.7221613620143454
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37e40e26ecd0496cece85"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE",
+      "length": 5
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 15905.900671512576,
+      "rme": 3.088250260524101
+    },
+    "Performance_oriented": {
+      "performance": 18894.83429212921,
+      "rme": 0.9170615351977308
+    },
+    "Old": {
+      "performance": 17165.893437196606,
+      "rme": 0.58468132182411
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37f3ae26ecd0496cece87"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE",
+      "length": 2
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 577325.0804041149,
+      "rme": 1.0740372943255991
+    },
+    "Performance_oriented": {
+      "performance": 1573923.769784071,
+      "rme": 0.46609418857101076
+    },
+    "Old": {
+      "performance": 1056621.098878856,
+      "rme": 1.8770113004498319
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37f3be26ecd0496cece89"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE",
+      "length": 5
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 16036.89456982101,
+      "rme": 1.13329946035086
+    },
+    "Performance_oriented": {
+      "performance": 19058.31411423522,
+      "rme": 0.31124761957339603
+    },
+    "Old": {
+      "performance": 16614.87666553862,
+      "rme": 0.44112896915327615
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37f3ce26ecd0496cece8b"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE",
+      "length": 4
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 60781.89359306995,
+      "rme": 1.1560069453572104
+    },
+    "Performance_oriented": {
+      "performance": 90535.71502315634,
+      "rme": 0.32307931912395804
+    },
+    "Old": {
+      "performance": 77635.96770718473,
+      "rme": 0.4647172959542555
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37f3ce26ecd0496cece8d"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE",
+      "length": 3
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 214753.22477803545,
+      "rme": 0.9627419595094906
+    },
+    "Performance_oriented": {
+      "performance": 392576.4562130192,
+      "rme": 0.5177614303269936
+    },
+    "Old": {
+      "performance": 327042.5948476525,
+      "rme": 1.151263831193362
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37f3de26ecd0496cece8f"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE",
+      "length": 1
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 1439265.824654972,
+      "rme": 0.8874075756979791
+    },
+    "Performance_oriented": {
+      "performance": 5587786.854148072,
+      "rme": 0.5006396805894338
+    },
+    "Old": {
+      "performance": 2662787.7415067633,
+      "rme": 0.5908469254603278
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37fb5e26ecd0496cece91"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE123",
+      "length": 5
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 1157.7463529345985,
+      "rme": 0.9816117992275257
+    },
+    "Performance_oriented": {
+      "performance": 1793.2519511929768,
+      "rme": 0.7978411913813633
+    },
+    "Old": {
+      "performance": 1580.6936391455038,
+      "rme": 1.2911755381388224
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37fb5e26ecd0496cece93"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE123",
+      "length": 2
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 195771.49394744344,
+      "rme": 1.8820994926225205
+    },
+    "Performance_oriented": {
+      "performance": 679018.5405118526,
+      "rme": 0.5707882634273052
+    },
+    "Old": {
+      "performance": 534031.9613248197,
+      "rme": 4.640429430931026
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37fb8e26ecd0496cece95"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE123",
+      "length": 1
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 749365.348818131,
+      "rme": 2.1636995927432787
+    },
+    "Performance_oriented": {
+      "performance": 3816405.326253698,
+      "rme": 0.6143034004488074
+    },
+    "Old": {
+      "performance": 2132264.6802658485,
+      "rme": 1.6015354560634445
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37fb8e26ecd0496cece98"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE123",
+      "length": 3
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 42124.50842344339,
+      "rme": 1.0426001292201308
+    },
+    "Performance_oriented": {
+      "performance": 105726.37161405242,
+      "rme": 0.4713930195813836
+    },
+    "Old": {
+      "performance": 92118.83406326498,
+      "rme": 1.246484299548397
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5fe37fb8e26ecd0496cece99"
+  },
+  "subject": {
+    "name": "subjects",
+    "value": {
+      "alphabet": "ABCDE123",
+      "length": 4
+    }
+  },
+  "results": {
+    "Style_oriented": {
+      "performance": 7283.976295765537,
+      "rme": 0.9544085844455281
+    },
+    "Performance_oriented": {
+      "performance": 14173.571018614166,
+      "rme": 0.78269205981715
+    },
+    "Old": {
+      "performance": 12493.290993137469,
+      "rme": 1.6605247516547645
+    }
+  }
+}]

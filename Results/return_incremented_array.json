@@ -1,0 +1,7723 @@
+[{
+  "_id": {
+    "$oid": "5fde065852d8272478ff403f"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1537561.4267635613,
+      "rme": 1.0414212279082642
+    },
+    "Array_increment_by_for": {
+      "performance": 3117917.2432312905,
+      "rme": 0.1952832343769504
+    },
+    "Wasm_increment_by_map": {
+      "performance": 193706.82693100855,
+      "rme": 2.657822656921534
+    },
+    "Wasm_increment_by_for": {
+      "performance": 3094667.208582989,
+      "rme": 0.6907739219769611
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 384
+  }
+},{
+  "_id": {
+    "$oid": "5fde068652d8272478ff4042"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 6902656.54157653,
+      "rme": 1.8605184577879155
+    },
+    "Array_increment_by_for": {
+      "performance": 13498491.702509321,
+      "rme": 0.5938377180558561
+    },
+    "Wasm_increment_by_map": {
+      "performance": 708669.1131960703,
+      "rme": 1.6599836326014428
+    },
+    "Wasm_increment_by_for": {
+      "performance": 13461481.423728025,
+      "rme": 0.8530146607008315
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 80
+  }
+},{
+  "_id": {
+    "$oid": "5fde06a852d8272478ff4045"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1119906.1716314694,
+      "rme": 1.1776810007829797
+    },
+    "Array_increment_by_for": {
+      "performance": 2296259.1915854234,
+      "rme": 0.5130176955677378
+    },
+    "Wasm_increment_by_map": {
+      "performance": 135777.30881994142,
+      "rme": 1.6711333076078596
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2278891.0607765964,
+      "rme": 0.5281643255251591
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 528
+  }
+},{
+  "_id": {
+    "$oid": "5fde06a852d8272478ff4046"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 932326.535044637,
+      "rme": 4.7511849909145125
+    },
+    "Array_increment_by_for": {
+      "performance": 1951064.6668097521,
+      "rme": 0.2779538070316593
+    },
+    "Wasm_increment_by_map": {
+      "performance": 126019.615150374,
+      "rme": 2.3418491637400636
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1941569.889501239,
+      "rme": 0.19832074950724646
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 624
+  }
+},{
+  "_id": {
+    "$oid": "5fde06b552d8272478ff404a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 595916.1821488906,
+      "rme": 1.1046523910267267
+    },
+    "Array_increment_by_for": {
+      "performance": 1250845.0326386252,
+      "rme": 0.15033574961482565
+    },
+    "Wasm_increment_by_map": {
+      "performance": 79552.33939727371,
+      "rme": 2.1368806836086236
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1250763.6295195448,
+      "rme": 0.2098991696878702
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 976
+  }
+},{
+  "_id": {
+    "$oid": "5fde06b552d8272478ff4049"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 8395479.0976006,
+      "rme": 1.759642704255901
+    },
+    "Array_increment_by_for": {
+      "performance": 16290940.633565232,
+      "rme": 2.6731271690153453
+    },
+    "Wasm_increment_by_map": {
+      "performance": 882278.9668816153,
+      "rme": 0.9239266335638785
+    },
+    "Wasm_increment_by_for": {
+      "performance": 16377346.881559862,
+      "rme": 2.3134942681465644
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 64
+  }
+},{
+  "_id": {
+    "$oid": "5fde06f852d8272478ff404d"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 617862.9173418898,
+      "rme": 0.7887424733026606
+    },
+    "Array_increment_by_for": {
+      "performance": 1294895.5209821942,
+      "rme": 0.2071502740452776
+    },
+    "Wasm_increment_by_map": {
+      "performance": 81759.43771904327,
+      "rme": 0.9282888990971865
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1297621.3044557953,
+      "rme": 0.10024673349549854
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 944
+  }
+},{
+  "_id": {
+    "$oid": "5fde071352d8272478ff404f"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 578699.0499278081,
+      "rme": 1.3948836894328882
+    },
+    "Array_increment_by_for": {
+      "performance": 1215116.137758748,
+      "rme": 0.09623761290441125
+    },
+    "Wasm_increment_by_map": {
+      "performance": 77176.6505234513,
+      "rme": 1.3236326155403495
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1216048.1644172636,
+      "rme": 0.08671156434602542
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1008
+  }
+},{
+  "_id": {
+    "$oid": "5fde073752d8272478ff4051"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 646735.4587606248,
+      "rme": 2.4182339955511827
+    },
+    "Array_increment_by_for": {
+      "performance": 1354736.0856597736,
+      "rme": 0.24219388901813807
+    },
+    "Wasm_increment_by_map": {
+      "performance": 80185.72976279094,
+      "rme": 0.8385652670472717
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1363095.1182708552,
+      "rme": 0.15147866670845753
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 896
+  }
+},{
+  "_id": {
+    "$oid": "5fde074752d8272478ff4054"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 751798.2521050716,
+      "rme": 0.3567048946454298
+    },
+    "Array_increment_by_for": {
+      "performance": 1551709.4413045472,
+      "rme": 0.3499050003521119
+    },
+    "Wasm_increment_by_map": {
+      "performance": 100093.62473024106,
+      "rme": 2.0176377251865327
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1555746.2845674804,
+      "rme": 0.10000036679666602
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 784
+  }
+},{
+  "_id": {
+    "$oid": "5fde074e52d8272478ff4056"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1256914.7284623252,
+      "rme": 1.6897458464349324
+    },
+    "Array_increment_by_for": {
+      "performance": 2607642.5422876803,
+      "rme": 0.19435327446727563
+    },
+    "Wasm_increment_by_map": {
+      "performance": 154030.875689495,
+      "rme": 1.8419644655595369
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2591629.2947888,
+      "rme": 0.13468446875303677
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 464
+  }
+},{
+  "_id": {
+    "$oid": "5fde075452d8272478ff4058"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1676243.0985478978,
+      "rme": 1.0668320992198546
+    },
+    "Array_increment_by_for": {
+      "performance": 3366871.990479435,
+      "rme": 0.24507136192845203
+    },
+    "Wasm_increment_by_map": {
+      "performance": 212472.77337886958,
+      "rme": 0.7268111516567325
+    },
+    "Wasm_increment_by_for": {
+      "performance": 3383826.9132839334,
+      "rme": 0.1292806197553617
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 352
+  }
+},{
+  "_id": {
+    "$oid": "5fde075952d8272478ff405c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 2837134.443844105,
+      "rme": 4.9427680698695795
+    },
+    "Array_increment_by_for": {
+      "performance": 5530034.400794086,
+      "rme": 0.25601590260557044
+    },
+    "Wasm_increment_by_map": {
+      "performance": 348907.97267674276,
+      "rme": 1.149500745865389
+    },
+    "Wasm_increment_by_for": {
+      "performance": 5536314.935856691,
+      "rme": 0.5191062266392267
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 208
+  }
+},{
+  "_id": {
+    "$oid": "5fde075952d8272478ff405d"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 964832.245201572,
+      "rme": 0.6555319272470119
+    },
+    "Array_increment_by_for": {
+      "performance": 1992634.8270935041,
+      "rme": 0.10544645843919052
+    },
+    "Wasm_increment_by_map": {
+      "performance": 128064.89286825873,
+      "rme": 0.9306102548110172
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1998312.1790717102,
+      "rme": 0.18849534054899691
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 608
+  }
+},{
+  "_id": {
+    "$oid": "5fde076152d8272478ff4060"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 587664.2848291678,
+      "rme": 0.33088660935816083
+    },
+    "Array_increment_by_for": {
+      "performance": 1231952.9586167422,
+      "rme": 0.32167107829164754
+    },
+    "Wasm_increment_by_map": {
+      "performance": 80709.18680511542,
+      "rme": 0.8010129116680136
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1233002.3317960533,
+      "rme": 0.4128840597177605
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 992
+  }
+},{
+  "_id": {
+    "$oid": "5fde076a52d8272478ff4065"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 714235.9549873825,
+      "rme": 0.6347462163378994
+    },
+    "Array_increment_by_for": {
+      "performance": 1496654.9319140997,
+      "rme": 0.10355463325185366
+    },
+    "Wasm_increment_by_map": {
+      "performance": 94658.95500508894,
+      "rme": 1.0588896814319908
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1495294.8332930685,
+      "rme": 0.10530991807920907
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 816
+  }
+},{
+  "_id": {
+    "$oid": "5fde076a52d8272478ff4066"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 3312922.9582031206,
+      "rme": 5.014179162565432
+    },
+    "Array_increment_by_for": {
+      "performance": 6412057.478483816,
+      "rme": 0.6373425858483538
+    },
+    "Wasm_increment_by_map": {
+      "performance": 401493.7933858842,
+      "rme": 2.1628840972737455
+    },
+    "Wasm_increment_by_for": {
+      "performance": 6471723.14830324,
+      "rme": 0.19986304946417363
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 176
+  }
+},{
+  "_id": {
+    "$oid": "5fde076a52d8272478ff4067"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1191103.7271656585,
+      "rme": 0.7352932872170392
+    },
+    "Array_increment_by_for": {
+      "performance": 2432979.5362709626,
+      "rme": 0.16015897280038735
+    },
+    "Wasm_increment_by_map": {
+      "performance": 155098.83453123944,
+      "rme": 0.5840556453434895
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2433558.3241922334,
+      "rme": 0.2021277739179997
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 496
+  }
+},{
+  "_id": {
+    "$oid": "5fde076f52d8272478ff4069"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1912558.1207782372,
+      "rme": 3.6220361356664954
+    },
+    "Array_increment_by_for": {
+      "performance": 3877738.7796459617,
+      "rme": 0.15385417612271568
+    },
+    "Wasm_increment_by_map": {
+      "performance": 247416.72631429476,
+      "rme": 1.0996115775568014
+    },
+    "Wasm_increment_by_for": {
+      "performance": 3895710.740601435,
+      "rme": 0.19087206844629037
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 304
+  }
+},{
+  "_id": {
+    "$oid": "5fde077d52d8272478ff406b"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 10812025.63682873,
+      "rme": 1.4625391940765118
+    },
+    "Array_increment_by_for": {
+      "performance": 20993597.153809685,
+      "rme": 0.8127710718045381
+    },
+    "Wasm_increment_by_map": {
+      "performance": 998989.5566225662,
+      "rme": 1.0988538834758703
+    },
+    "Wasm_increment_by_for": {
+      "performance": 20953795.79103074,
+      "rme": 2.057114258337487
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 48
+  }
+},{
+  "_id": {
+    "$oid": "5fde078c52d8272478ff406d"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 26823813.25840875,
+      "rme": 2.870584232831223
+    },
+    "Array_increment_by_for": {
+      "performance": 51974812.02313793,
+      "rme": 5.1815041269072655
+    },
+    "Wasm_increment_by_map": {
+      "performance": 3932997.1334766042,
+      "rme": 0.3920852321641554
+    },
+    "Wasm_increment_by_for": {
+      "performance": 44951248.00859574,
+      "rme": 2.7348272247668755
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 16
+  }
+},{
+  "_id": {
+    "$oid": "5fde079152d8272478ff406f"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 769734.0782139204,
+      "rme": 0.3116910706128787
+    },
+    "Array_increment_by_for": {
+      "performance": 1589044.7257415084,
+      "rme": 0.07008952250737858
+    },
+    "Wasm_increment_by_map": {
+      "performance": 102241.16361708322,
+      "rme": 1.2074315880040192
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1583980.140112417,
+      "rme": 0.1675075086693749
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 768
+  }
+},{
+  "_id": {
+    "$oid": "5fde079752d8272478ff4072"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 15226333.397565434,
+      "rme": 2.147510559389248
+    },
+    "Array_increment_by_for": {
+      "performance": 28816370.3900301,
+      "rme": 0.8095014734790179
+    },
+    "Wasm_increment_by_map": {
+      "performance": 1352189.52100542,
+      "rme": 0.4904532154668865
+    },
+    "Wasm_increment_by_for": {
+      "performance": 28965020.3285512,
+      "rme": 1.6283656516823743
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 32
+  }
+},{
+  "_id": {
+    "$oid": "5fde079c52d8272478ff4075"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 916258.1675886746,
+      "rme": 0.35907159637735064
+    },
+    "Array_increment_by_for": {
+      "performance": 1898589.977673304,
+      "rme": 0.08690094637664471
+    },
+    "Wasm_increment_by_map": {
+      "performance": 121057.16498696826,
+      "rme": 1.5628046015076533
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1894231.9570324984,
+      "rme": 0.1549099639012133
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 640
+  }
+},{
+  "_id": {
+    "$oid": "5fde079f52d8272478ff407a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 798719.1463145987,
+      "rme": 0.5282204874584386
+    },
+    "Array_increment_by_for": {
+      "performance": 1653921.9123800565,
+      "rme": 0.1309668168161797
+    },
+    "Wasm_increment_by_map": {
+      "performance": 108431.74756072933,
+      "rme": 0.2757823841806332
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1657108.907909243,
+      "rme": 0.1706026766495382
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 736
+  }
+},{
+  "_id": {
+    "$oid": "5fde079f52d8272478ff4079"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1018937.5575010476,
+      "rme": 1.4887940417708794
+    },
+    "Array_increment_by_for": {
+      "performance": 2101038.711306405,
+      "rme": 0.17187626692387653
+    },
+    "Wasm_increment_by_map": {
+      "performance": 134947.6211632347,
+      "rme": 1.1590161664443412
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2101084.055439845,
+      "rme": 0.14874222217143465
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 576
+  }
+},{
+  "_id": {
+    "$oid": "5fde07ab52d8272478ff407e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 994871.2145355848,
+      "rme": 0.7084069888222805
+    },
+    "Array_increment_by_for": {
+      "performance": 2045216.1392046728,
+      "rme": 0.12863393686995003
+    },
+    "Wasm_increment_by_map": {
+      "performance": 130340.43227724034,
+      "rme": 0.9681070516809884
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2047078.0862299912,
+      "rme": 0.13900042105643012
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 592
+  }
+},{
+  "_id": {
+    "$oid": "5fde07b252d8272478ff4080"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1226970.0664658074,
+      "rme": 0.559677379984072
+    },
+    "Array_increment_by_for": {
+      "performance": 2503288.8108108635,
+      "rme": 0.08298294335476494
+    },
+    "Wasm_increment_by_map": {
+      "performance": 159213.58017361528,
+      "rme": 2.0310568093499253
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2510234.524933382,
+      "rme": 0.18306095121190977
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 480
+  }
+},{
+  "_id": {
+    "$oid": "5fde07c852d8272478ff4085"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 854362.7223509256,
+      "rme": 0.3611122541091261
+    },
+    "Array_increment_by_for": {
+      "performance": 1767091.8786869235,
+      "rme": 0.09766043311663047
+    },
+    "Wasm_increment_by_map": {
+      "performance": 113052.98368583425,
+      "rme": 3.49768880416066
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1767400.8791621549,
+      "rme": 0.0977173610290232
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 688
+  }
+},{
+  "_id": {
+    "$oid": "5fde07c852d8272478ff4084"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1327512.2633894687,
+      "rme": 0.4255707939440031
+    },
+    "Array_increment_by_for": {
+      "performance": 2680989.683361654,
+      "rme": 0.1486058938691079
+    },
+    "Wasm_increment_by_map": {
+      "performance": 174023.48730156082,
+      "rme": 0.6944524701224551
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2681909.1255104113,
+      "rme": 0.14108190849284652
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 448
+  }
+},{
+  "_id": {
+    "$oid": "5fde07d152d8272478ff4089"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 897632.1792542981,
+      "rme": 0.5833488263226847
+    },
+    "Array_increment_by_for": {
+      "performance": 1849752.9692225603,
+      "rme": 0.12689688892474432
+    },
+    "Wasm_increment_by_map": {
+      "performance": 120245.83544391852,
+      "rme": 0.6640619118883522
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1846680.099100461,
+      "rme": 0.1820006351654808
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 656
+  }
+},{
+  "_id": {
+    "$oid": "5fde07d152d8272478ff408a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 782588.6340414863,
+      "rme": 0.3642186914638761
+    },
+    "Array_increment_by_for": {
+      "performance": 1617747.6111266033,
+      "rme": 0.12254384339194101
+    },
+    "Wasm_increment_by_map": {
+      "performance": 102655.68794036182,
+      "rme": 2.24350895135415
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1619031.7735840413,
+      "rme": 0.07075601175246417
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 752
+  }
+},{
+  "_id": {
+    "$oid": "5fde07d652d8272478ff408c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1363848.8129641714,
+      "rme": 0.8319023435478105
+    },
+    "Array_increment_by_for": {
+      "performance": 2772552.86866575,
+      "rme": 0.13589757314924894
+    },
+    "Wasm_increment_by_map": {
+      "performance": 169990.22516208232,
+      "rme": 4.929477095908108
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2777640.7904923134,
+      "rme": 0.08998477343259918
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 432
+  }
+},{
+  "_id": {
+    "$oid": "5fde07de52d8272478ff408e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1152870.9580154072,
+      "rme": 0.793366861250733
+    },
+    "Array_increment_by_for": {
+      "performance": 2355765.8042449486,
+      "rme": 0.2142308851662537
+    },
+    "Wasm_increment_by_map": {
+      "performance": 150991.19112958884,
+      "rme": 0.7495756822899314
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2360223.8319245065,
+      "rme": 0.0817356188822071
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 512
+  }
+},{
+  "_id": {
+    "$oid": "5fde07e252d8272478ff4091"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 871505.4918054016,
+      "rme": 2.0770617530181243
+    },
+    "Array_increment_by_for": {
+      "performance": 1809827.5882580767,
+      "rme": 0.14968660934111852
+    },
+    "Wasm_increment_by_map": {
+      "performance": 113947.39758633987,
+      "rme": 3.106385066069345
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1807105.4414266504,
+      "rme": 0.0769002569621384
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 672
+  }
+},{
+  "_id": {
+    "$oid": "5fde07e752d8272478ff4094"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 822938.1032602084,
+      "rme": 0.34584222415306026
+    },
+    "Array_increment_by_for": {
+      "performance": 1679625.3288149603,
+      "rme": 0.7984653386713298
+    },
+    "Wasm_increment_by_map": {
+      "performance": 106973.04224731805,
+      "rme": 1.0021310942254154
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1691016.1343241255,
+      "rme": 0.050710507539529805
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 720
+  }
+},{
+  "_id": {
+    "$oid": "5fde07e952d8272478ff4096"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 678777.6139719926,
+      "rme": 0.3868967864607672
+    },
+    "Array_increment_by_for": {
+      "performance": 1415278.1169727887,
+      "rme": 0.14664844996825388
+    },
+    "Wasm_increment_by_map": {
+      "performance": 91720.85403678543,
+      "rme": 0.7433205190556226
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1414356.1680442952,
+      "rme": 0.08591571330245043
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 864
+  }
+},{
+  "_id": {
+    "$oid": "5fde07f852d8272478ff4099"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1473761.1919471575,
+      "rme": 0.488879526235876
+    },
+    "Array_increment_by_for": {
+      "performance": 2985190.532387174,
+      "rme": 0.14528707885569417
+    },
+    "Wasm_increment_by_map": {
+      "performance": 189236.86589494013,
+      "rme": 1.2285556066041539
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2988338.1685825735,
+      "rme": 0.1263884814286423
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 400
+  }
+},{
+  "_id": {
+    "$oid": "5fde07fe52d8272478ff409b"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 640628.6984893657,
+      "rme": 0.4691366924150379
+    },
+    "Array_increment_by_for": {
+      "performance": 1343559.3311765078,
+      "rme": 0.06779190596189391
+    },
+    "Wasm_increment_by_map": {
+      "performance": 85991.01194984508,
+      "rme": 1.2018604268661854
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1342237.8603597071,
+      "rme": 0.06877573930460654
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 912
+  }
+},{
+  "_id": {
+    "$oid": "5fde080452d8272478ff409d"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 2184417.4179345667,
+      "rme": 0.5184093648129228
+    },
+    "Array_increment_by_for": {
+      "performance": 4316644.69843804,
+      "rme": 0.2485542009690637
+    },
+    "Wasm_increment_by_map": {
+      "performance": 271683.4248750578,
+      "rme": 1.7049588492546883
+    },
+    "Wasm_increment_by_for": {
+      "performance": 4318729.308897524,
+      "rme": 0.11213871297448456
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 272
+  }
+},{
+  "_id": {
+    "$oid": "5fde080652d8272478ff40a0"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 665655.7182197266,
+      "rme": 0.7754149278772455
+    },
+    "Array_increment_by_for": {
+      "performance": 1389659.9160870847,
+      "rme": 0.09249586289518547
+    },
+    "Wasm_increment_by_map": {
+      "performance": 90011.93161219016,
+      "rme": 0.875851771755801
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1390074.4129514336,
+      "rme": 0.06107029678104843
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 880
+  }
+},{
+  "_id": {
+    "$oid": "5fde080652d8272478ff40a1"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 3688086.9354668744,
+      "rme": 0.6129869834777922
+    },
+    "Array_increment_by_for": {
+      "performance": 7016355.94791388,
+      "rme": 0.25705353917644025
+    },
+    "Wasm_increment_by_map": {
+      "performance": 429769.59027842793,
+      "rme": 0.6651453052756093
+    },
+    "Wasm_increment_by_for": {
+      "performance": 7032927.005865641,
+      "rme": 0.267825075623128
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 160
+  }
+},{
+  "_id": {
+    "$oid": "5fde080852d8272478ff40a4"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 2480023.8337018336,
+      "rme": 0.610525448781545
+    },
+    "Array_increment_by_for": {
+      "performance": 4834713.896965725,
+      "rme": 0.1693114515477183
+    },
+    "Wasm_increment_by_map": {
+      "performance": 307441.35787677974,
+      "rme": 1.438673131142087
+    },
+    "Wasm_increment_by_for": {
+      "performance": 4845847.922308041,
+      "rme": 0.1418809232030446
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 240
+  }
+},{
+  "_id": {
+    "$oid": "5fde081152d8272478ff40a8"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 839714.4293349173,
+      "rme": 0.42552619032467914
+    },
+    "Array_increment_by_for": {
+      "performance": 1729831.5049799343,
+      "rme": 0.24204849393109673
+    },
+    "Wasm_increment_by_map": {
+      "performance": 112333.18071887331,
+      "rme": 0.6293851650146923
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1727331.3081544102,
+      "rme": 0.07316631167730141
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 704
+  }
+},{
+  "_id": {
+    "$oid": "5fde081152d8272478ff40a7"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1418877.8512044894,
+      "rme": 1.1255142965490335
+    },
+    "Array_increment_by_for": {
+      "performance": 2878678.027571623,
+      "rme": 0.1123582974752761
+    },
+    "Wasm_increment_by_map": {
+      "performance": 184797.38409769352,
+      "rme": 0.8458148131377553
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2876903.364119898,
+      "rme": 0.11591325218537085
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 416
+  }
+},{
+  "_id": {
+    "$oid": "5fde081552d8272478ff40ac"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 3071630.0032057907,
+      "rme": 0.7462665996050805
+    },
+    "Array_increment_by_for": {
+      "performance": 5941503.384710652,
+      "rme": 0.2039283678019763
+    },
+    "Wasm_increment_by_map": {
+      "performance": 371958.5696925799,
+      "rme": 0.8144078557214638
+    },
+    "Wasm_increment_by_for": {
+      "performance": 5890068.6000119215,
+      "rme": 0.24506690880028997
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 192
+  }
+},{
+  "_id": {
+    "$oid": "5fde081752d8272478ff40af"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 2652105.7409445783,
+      "rme": 0.7454298000840855
+    },
+    "Array_increment_by_for": {
+      "performance": 5173346.978472013,
+      "rme": 0.18228328858099618
+    },
+    "Wasm_increment_by_map": {
+      "performance": 327239.09878139046,
+      "rme": 1.3614289943677058
+    },
+    "Wasm_increment_by_for": {
+      "performance": 5176628.163037953,
+      "rme": 0.13929101922488604
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 224
+  }
+},{
+  "_id": {
+    "$oid": "5fde081a52d8272478ff40b2"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 2057785.335170945,
+      "rme": 0.5380435554446424
+    },
+    "Array_increment_by_for": {
+      "performance": 4086016.3589931424,
+      "rme": 0.17273150550992375
+    },
+    "Wasm_increment_by_map": {
+      "performance": 262633.0203662988,
+      "rme": 0.41963064011165196
+    },
+    "Wasm_increment_by_for": {
+      "performance": 4088071.1148373066,
+      "rme": 0.11472844011096647
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 288
+  }
+},{
+  "_id": {
+    "$oid": "5fde082052d8272478ff40b5"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 694418.2374159757,
+      "rme": 0.4002235955824849
+    },
+    "Array_increment_by_for": {
+      "performance": 1440186.2616621966,
+      "rme": 0.0948427736360304
+    },
+    "Wasm_increment_by_map": {
+      "performance": 93300.30181953925,
+      "rme": 0.6695994757087742
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1441113.1725203001,
+      "rme": 0.06793947452552816
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 848
+  }
+},{
+  "_id": {
+    "$oid": "5fde082152d8272478ff40b7"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 5093310.153922368,
+      "rme": 0.7475413037293226
+    },
+    "Array_increment_by_for": {
+      "performance": 9652929.828299033,
+      "rme": 0.39580520599871927
+    },
+    "Wasm_increment_by_map": {
+      "performance": 568814.0141085945,
+      "rme": 0.776287773448242
+    },
+    "Wasm_increment_by_for": {
+      "performance": 9627216.324041458,
+      "rme": 0.3664749746696054
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 112
+  }
+},{
+  "_id": {
+    "$oid": "5fde082352d8272478ff40b9"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 631199.2896017926,
+      "rme": 0.3582360175145559
+    },
+    "Array_increment_by_for": {
+      "performance": 1319007.6283797068,
+      "rme": 0.11029140787689201
+    },
+    "Wasm_increment_by_map": {
+      "performance": 86515.25496650627,
+      "rme": 0.3551963811539899
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1320467.5562791585,
+      "rme": 0.056781262435859466
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 928
+  }
+},{
+  "_id": {
+    "$oid": "5fde082552d8272478ff40bc"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 703424.1297777214,
+      "rme": 0.5596108943884835
+    },
+    "Array_increment_by_for": {
+      "performance": 1466074.6856928866,
+      "rme": 0.07593718341964258
+    },
+    "Wasm_increment_by_map": {
+      "performance": 95129.69443184625,
+      "rme": 0.6161475934400165
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1468229.0461924896,
+      "rme": 0.058455748382156114
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 832
+  }
+},{
+  "_id": {
+    "$oid": "5fde082652d8272478ff40bf"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 2330230.3850475247,
+      "rme": 0.5129566162665247
+    },
+    "Array_increment_by_for": {
+      "performance": 4561201.6892899275,
+      "rme": 0.11369065937717676
+    },
+    "Wasm_increment_by_map": {
+      "performance": 292295.6267813607,
+      "rme": 0.5373547195859956
+    },
+    "Wasm_increment_by_for": {
+      "performance": 4566846.840873864,
+      "rme": 0.14910609167891545
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 256
+  }
+},{
+  "_id": {
+    "$oid": "5fde082852d8272478ff40c2"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 734839.9702676429,
+      "rme": 0.2934227059906458
+    },
+    "Array_increment_by_for": {
+      "performance": 1526187.0844147801,
+      "rme": 0.21253221111151127
+    },
+    "Wasm_increment_by_map": {
+      "performance": 99652.58935615061,
+      "rme": 0.36746295165248916
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1526746.949849435,
+      "rme": 0.052979938748090184
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 800
+  }
+},{
+  "_id": {
+    "$oid": "5fde082a52d8272478ff40c5"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1059824.2531158265,
+      "rme": 0.6817832117765525
+    },
+    "Array_increment_by_for": {
+      "performance": 2157900.9530618796,
+      "rme": 0.10387801157481588
+    },
+    "Wasm_increment_by_map": {
+      "performance": 140759.99283898532,
+      "rme": 0.45060340214205813
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2159488.79834048,
+      "rme": 0.07840542293805008
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 560
+  }
+},{
+  "_id": {
+    "$oid": "5fde082c52d8272478ff40c8"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1768671.7003666598,
+      "rme": 0.4870711553766139
+    },
+    "Array_increment_by_for": {
+      "performance": 3528770.31412126,
+      "rme": 0.1502174511467425
+    },
+    "Wasm_increment_by_map": {
+      "performance": 224699.6038155308,
+      "rme": 0.5572374647431827
+    },
+    "Wasm_increment_by_for": {
+      "performance": 3529523.1748206094,
+      "rme": 0.11320688180691803
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 336
+  }
+},{
+  "_id": {
+    "$oid": "5fde082c52d8272478ff40c9"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1857752.7317935945,
+      "rme": 0.478393271397088
+    },
+    "Array_increment_by_for": {
+      "performance": 3696643.7109351456,
+      "rme": 0.1462283110272919
+    },
+    "Wasm_increment_by_map": {
+      "performance": 238724.90421860036,
+      "rme": 0.2573794155606832
+    },
+    "Wasm_increment_by_for": {
+      "performance": 3699101.1748712966,
+      "rme": 0.10875366170316238
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 320
+  }
+},{
+  "_id": {
+    "$oid": "5fde082d52d8272478ff40cc"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 4539239.909969959,
+      "rme": 0.6105957718623531
+    },
+    "Array_increment_by_for": {
+      "performance": 8590666.000218326,
+      "rme": 0.3038032825752288
+    },
+    "Wasm_increment_by_map": {
+      "performance": 503336.79291996337,
+      "rme": 0.787018528760456
+    },
+    "Wasm_increment_by_for": {
+      "performance": 8574935.050607989,
+      "rme": 0.3441112102466029
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 128
+  }
+},{
+  "_id": {
+    "$oid": "5fde083252d8272478ff40cf"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1590045.5209212787,
+      "rme": 0.9963400673732424
+    },
+    "Array_increment_by_for": {
+      "performance": 3233141.5317515335,
+      "rme": 0.108671760870847
+    },
+    "Wasm_increment_by_map": {
+      "performance": 207402.21025642223,
+      "rme": 0.4781524028679769
+    },
+    "Wasm_increment_by_for": {
+      "performance": 3238282.7855560775,
+      "rme": 0.09741960908172403
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 368
+  }
+},{
+  "_id": {
+    "$oid": "5fde083452d8272478ff40d1"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 5686200.901311075,
+      "rme": 1.0569555043616627
+    },
+    "Array_increment_by_for": {
+      "performance": 10901924.567510571,
+      "rme": 0.41472374789228983
+    },
+    "Wasm_increment_by_map": {
+      "performance": 649475.6264408302,
+      "rme": 0.5062940690663246
+    },
+    "Wasm_increment_by_for": {
+      "performance": 10992141.522254093,
+      "rme": 0.35346003163078826
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 96
+  }
+},{
+  "_id": {
+    "$oid": "5fde083b52d8272478ff40d4"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1091532.5305647207,
+      "rme": 0.3590894065435003
+    },
+    "Array_increment_by_for": {
+      "performance": 2218401.1882808926,
+      "rme": 0.07648044535155782
+    },
+    "Wasm_increment_by_map": {
+      "performance": 145380.95156893233,
+      "rme": 0.27270698506938806
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2221767.175554208,
+      "rme": 0.08389393795265358
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 544
+  }
+},{
+  "_id": {
+    "$oid": "5fde083c52d8272478ff40d7"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 605257.743860998,
+      "rme": 0.36539462613641455
+    },
+    "Array_increment_by_for": {
+      "performance": 1276459.0469612896,
+      "rme": 0.05794873469147493
+    },
+    "Wasm_increment_by_map": {
+      "performance": 83168.71550975149,
+      "rme": 0.552728988304948
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1274300.9569976388,
+      "rme": 0.06338152024738941
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 960
+  }
+},{
+  "_id": {
+    "$oid": "5fde083e52d8272478ff40da"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 4031118.0690388815,
+      "rme": 0.767940457581065
+    },
+    "Array_increment_by_for": {
+      "performance": 7748245.290867595,
+      "rme": 0.1879582957538154
+    },
+    "Wasm_increment_by_map": {
+      "performance": 463842.3148673926,
+      "rme": 0.7179129489927547
+    },
+    "Wasm_increment_by_for": {
+      "performance": 7743105.476597018,
+      "rme": 0.20271325412028687
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 144
+  }
+},{
+  "_id": {
+    "$oid": "5fde083e52d8272478ff40dc"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 562514.9614625288,
+      "rme": 0.7468277213491441
+    },
+    "Array_increment_by_for": {
+      "performance": 1196008.421345641,
+      "rme": 0.07267423312424481
+    },
+    "Wasm_increment_by_map": {
+      "performance": 77145.99525786661,
+      "rme": 0.5937604082567156
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1197109.7140977012,
+      "rme": 0.0792323032296451
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1024
+  }
+},{
+  "_id": {
+    "$oid": "5fdf35c64583bd1d70c268b0"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 154484.3380979904,
+      "rme": 1.946674445985474
+    },
+    "Array_increment_by_for": {
+      "performance": 384587.84264111926,
+      "rme": 0.9712469314032799
+    },
+    "Wasm_increment_by_map": {
+      "performance": 22294.941647295607,
+      "rme": 0.9086008227650757
+    },
+    "Wasm_increment_by_for": {
+      "performance": 378721.69153592526,
+      "rme": 0.7939059747356857
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3200
+  }
+},{
+  "_id": {
+    "$oid": "5fdf35f64583bd1d70c268b2"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 139957.34149674157,
+      "rme": 0.9935236894983849
+    },
+    "Array_increment_by_for": {
+      "performance": 336291.310656361,
+      "rme": 1.0413923331186163
+    },
+    "Wasm_increment_by_map": {
+      "performance": 20983.742757418142,
+      "rme": 3.22270515385109
+    },
+    "Wasm_increment_by_for": {
+      "performance": 346438.451953831,
+      "rme": 0.6318917846461475
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3584
+  }
+},{
+  "_id": {
+    "$oid": "5fdf35f94583bd1d70c268b4"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 244315.08484942155,
+      "rme": 1.5221409161236197
+    },
+    "Array_increment_by_for": {
+      "performance": 573097.9993147857,
+      "rme": 2.4664354472722443
+    },
+    "Wasm_increment_by_map": {
+      "performance": 35430.32837410858,
+      "rme": 1.9104072758401103
+    },
+    "Wasm_increment_by_for": {
+      "performance": 581995.5773133916,
+      "rme": 0.6978435627059174
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2048
+  }
+},{
+  "_id": {
+    "$oid": "5fdf36014583bd1d70c268b6"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 120266.13547175331,
+      "rme": 1.9024150287808885
+    },
+    "Array_increment_by_for": {
+      "performance": 297650.99109357677,
+      "rme": 0.6530298905933926
+    },
+    "Wasm_increment_by_map": {
+      "performance": 18645.13831571452,
+      "rme": 1.7248448049572738
+    },
+    "Wasm_increment_by_for": {
+      "performance": 297682.11168764776,
+      "rme": 0.8240793013791716
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 4096
+  }
+},{
+  "_id": {
+    "$oid": "5fdf360b4583bd1d70c268b8"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 229336.955998988,
+      "rme": 1.2478938965085664
+    },
+    "Array_increment_by_for": {
+      "performance": 548959.1774455378,
+      "rme": 0.7102951720366387
+    },
+    "Wasm_increment_by_map": {
+      "performance": 33667.29145702231,
+      "rme": 3.3757550730071277
+    },
+    "Wasm_increment_by_for": {
+      "performance": 551834.8284804075,
+      "rme": 0.6043390900553224
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2176
+  }
+},{
+  "_id": {
+    "$oid": "5fdf361e4583bd1d70c268ba"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 142981.56002791057,
+      "rme": 1.6897540247369531
+    },
+    "Array_increment_by_for": {
+      "performance": 353705.1433089193,
+      "rme": 1.3017831391516208
+    },
+    "Wasm_increment_by_map": {
+      "performance": 21520.745914832536,
+      "rme": 1.1931594132817869
+    },
+    "Wasm_increment_by_for": {
+      "performance": 353444.7440304139,
+      "rme": 0.7106815542827206
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3456
+  }
+},{
+  "_id": {
+    "$oid": "5fdf361f4583bd1d70c268be"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 356093.8861755478,
+      "rme": 1.0258628440425683
+    },
+    "Array_increment_by_for": {
+      "performance": 847790.7431918673,
+      "rme": 0.7917003316319622
+    },
+    "Wasm_increment_by_map": {
+      "performance": 55320.91314797467,
+      "rme": 2.178188957031998
+    },
+    "Wasm_increment_by_for": {
+      "performance": 820142.9540834264,
+      "rme": 2.59463981312901
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1408
+  }
+},{
+  "_id": {
+    "$oid": "5fdf361f4583bd1d70c268bf"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 125768.06350222653,
+      "rme": 1.0768147942328867
+    },
+    "Array_increment_by_for": {
+      "performance": 301778.4610698871,
+      "rme": 2.6082399054732606
+    },
+    "Wasm_increment_by_map": {
+      "performance": 19600.728240429184,
+      "rme": 0.9152978769300314
+    },
+    "Wasm_increment_by_for": {
+      "performance": 300956.98508334125,
+      "rme": 2.3935690040193265
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3968
+  }
+},{
+  "_id": {
+    "$oid": "5fdf361f4583bd1d70c268c0"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 148000.04796548866,
+      "rme": 2.041648873469955
+    },
+    "Array_increment_by_for": {
+      "performance": 365633.4040030184,
+      "rme": 0.9991592213788248
+    },
+    "Wasm_increment_by_map": {
+      "performance": 23068.501607238268,
+      "rme": 1.5159339922037494
+    },
+    "Wasm_increment_by_for": {
+      "performance": 364074.2058914711,
+      "rme": 0.9566765185630856
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3328
+  }
+},{
+  "_id": {
+    "$oid": "5fdf36214583bd1d70c268c2"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 134780.35936338626,
+      "rme": 1.2727260539472511
+    },
+    "Array_increment_by_for": {
+      "performance": 329312.0083078791,
+      "rme": 0.8454110119541639
+    },
+    "Wasm_increment_by_map": {
+      "performance": 20948.226466984248,
+      "rme": 1.1266737198172565
+    },
+    "Wasm_increment_by_for": {
+      "performance": 330757.27886989014,
+      "rme": 0.8154595001747604
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3712
+  }
+},{
+  "_id": {
+    "$oid": "5fdf36224583bd1d70c268c4"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 161246.18875676233,
+      "rme": 1.6260185184916736
+    },
+    "Array_increment_by_for": {
+      "performance": 397155.3396599432,
+      "rme": 1.8673832410572289
+    },
+    "Wasm_increment_by_map": {
+      "performance": 25221.69885130115,
+      "rme": 1.027604176211948
+    },
+    "Wasm_increment_by_for": {
+      "performance": 390831.73073126207,
+      "rme": 1.12572937556523
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3072
+  }
+},{
+  "_id": {
+    "$oid": "5fdf362c4583bd1d70c268c6"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 217569.31132519615,
+      "rme": 1.265663082378109
+    },
+    "Array_increment_by_for": {
+      "performance": 518858.0561473696,
+      "rme": 0.8993379653428717
+    },
+    "Wasm_increment_by_map": {
+      "performance": 34134.021245518576,
+      "rme": 0.879332161243014
+    },
+    "Wasm_increment_by_for": {
+      "performance": 508726.3714169067,
+      "rme": 1.2851502721696209
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2304
+  }
+},{
+  "_id": {
+    "$oid": "5fdf362e4583bd1d70c268c8"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 129479.48998895288,
+      "rme": 1.503300346487252
+    },
+    "Array_increment_by_for": {
+      "performance": 314998.2388252436,
+      "rme": 0.9815561478921443
+    },
+    "Wasm_increment_by_map": {
+      "performance": 20521.12508535265,
+      "rme": 0.8592610892266218
+    },
+    "Wasm_increment_by_for": {
+      "performance": 311644.0618659621,
+      "rme": 1.9593630915526294
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3840
+  }
+},{
+  "_id": {
+    "$oid": "5fdf36324583bd1d70c268ca"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 177895.22397797686,
+      "rme": 1.355617924243015
+    },
+    "Array_increment_by_for": {
+      "performance": 425494.07236660057,
+      "rme": 0.8216347547464293
+    },
+    "Wasm_increment_by_map": {
+      "performance": 27143.455439000336,
+      "rme": 2.945647561043437
+    },
+    "Wasm_increment_by_for": {
+      "performance": 419500.5381232412,
+      "rme": 1.1452152013366266
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2816
+  }
+},{
+  "_id": {
+    "$oid": "5fdf36334583bd1d70c268cc"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 391371.055164027,
+      "rme": 1.3780038561462578
+    },
+    "Array_increment_by_for": {
+      "performance": 933851.8211546056,
+      "rme": 0.7426733244559454
+    },
+    "Wasm_increment_by_map": {
+      "performance": 61576.731653872346,
+      "rme": 1.2608554749965517
+    },
+    "Wasm_increment_by_for": {
+      "performance": 918949.4254042188,
+      "rme": 0.8854417921364587
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1280
+  }
+},{
+  "_id": {
+    "$oid": "5fdf36344583bd1d70c268ce"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 196621.3959191433,
+      "rme": 1.1463771454401737
+    },
+    "Array_increment_by_for": {
+      "performance": 468794.50658362,
+      "rme": 0.5799238460660211
+    },
+    "Wasm_increment_by_map": {
+      "performance": 30471.979363420192,
+      "rme": 1.401668852464277
+    },
+    "Wasm_increment_by_for": {
+      "performance": 459879.15566721634,
+      "rme": 0.7098355370127405
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2560
+  }
+},{
+  "_id": {
+    "$oid": "5fdf36364583bd1d70c268d0"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 187218.98121584798,
+      "rme": 1.3598726382658153
+    },
+    "Array_increment_by_for": {
+      "performance": 445289.28290276113,
+      "rme": 0.7488761519319572
+    },
+    "Wasm_increment_by_map": {
+      "performance": 29136.205014544114,
+      "rme": 1.4407785389108114
+    },
+    "Wasm_increment_by_for": {
+      "performance": 440828.57579886646,
+      "rme": 0.9127714026150989
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2688
+  }
+},{
+  "_id": {
+    "$oid": "5fdf363d4583bd1d70c268d2"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 278967.1640350516,
+      "rme": 1.2792209137216044
+    },
+    "Array_increment_by_for": {
+      "performance": 666775.6838022914,
+      "rme": 1.0356590816064988
+    },
+    "Wasm_increment_by_map": {
+      "performance": 43744.976792574904,
+      "rme": 0.9706231830661157
+    },
+    "Wasm_increment_by_for": {
+      "performance": 655759.4342961446,
+      "rme": 0.7808066497308429
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1792
+  }
+},{
+  "_id": {
+    "$oid": "5fdf36434583bd1d70c268d8"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 203889.33529953135,
+      "rme": 1.2582420263384289
+    },
+    "Array_increment_by_for": {
+      "performance": 494370.59060976224,
+      "rme": 0.49471423531307607
+    },
+    "Wasm_increment_by_map": {
+      "performance": 32154.70992123846,
+      "rme": 0.9844510376414234
+    },
+    "Wasm_increment_by_for": {
+      "performance": 486098.3240801857,
+      "rme": 1.1341743220372016
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2432
+  }
+},{
+  "_id": {
+    "$oid": "5fdf36434583bd1d70c268da"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 421002.4597237579,
+      "rme": 1.2574478864745275
+    },
+    "Array_increment_by_for": {
+      "performance": 1025525.8565267859,
+      "rme": 1.3465236250533537
+    },
+    "Wasm_increment_by_map": {
+      "performance": 66974.31609213636,
+      "rme": 1.5623689864611305
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1026905.7843476718,
+      "rme": 1.0995938107929866
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1152
+  }
+},{
+  "_id": {
+    "$oid": "5fdf36434583bd1d70c268d9"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 326094.728837944,
+      "rme": 1.487508697702039
+    },
+    "Array_increment_by_for": {
+      "performance": 776924.9368239763,
+      "rme": 0.9261355576446794
+    },
+    "Wasm_increment_by_map": {
+      "performance": 50809.66185785874,
+      "rme": 0.8840313940537947
+    },
+    "Wasm_increment_by_for": {
+      "performance": 767970.8098231402,
+      "rme": 1.2302227509948254
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1536
+  }
+},{
+  "_id": {
+    "$oid": "5fdf36434583bd1d70c268db"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 299748.7062364095,
+      "rme": 1.2606806032739872
+    },
+    "Array_increment_by_for": {
+      "performance": 721459.1892949827,
+      "rme": 0.8149334175038427
+    },
+    "Wasm_increment_by_map": {
+      "performance": 46712.068671741574,
+      "rme": 0.810771859567914
+    },
+    "Wasm_increment_by_for": {
+      "performance": 709487.481679707,
+      "rme": 0.8743783224360461
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1664
+  }
+},{
+  "_id": {
+    "$oid": "5fdf36434583bd1d70c268dc"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 258740.43640551626,
+      "rme": 1.723408016890675
+    },
+    "Array_increment_by_for": {
+      "performance": 624788.9135114048,
+      "rme": 1.0590700564627302
+    },
+    "Wasm_increment_by_map": {
+      "performance": 40534.71066574328,
+      "rme": 1.030404825690521
+    },
+    "Wasm_increment_by_for": {
+      "performance": 616835.0556794672,
+      "rme": 1.1386119290807828
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1920
+  }
+},{
+  "_id": {
+    "$oid": "5fdf36464583bd1d70c268de"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 170344.04109739297,
+      "rme": 0.9985593285264682
+    },
+    "Array_increment_by_for": {
+      "performance": 405564.8968835217,
+      "rme": 1.078652099442523
+    },
+    "Wasm_increment_by_map": {
+      "performance": 26151.752132127025,
+      "rme": 1.0557169044752548
+    },
+    "Wasm_increment_by_for": {
+      "performance": 407531.759245916,
+      "rme": 0.8663581776708925
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2944
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3b3f4583bd1d70c268e0"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 131074.7872172493,
+      "rme": 6.783376095363374
+    },
+    "Array_increment_by_for": {
+      "performance": 306490.2536168816,
+      "rme": 9.395011591195882
+    },
+    "Wasm_increment_by_map": {
+      "performance": 20369.938474858172,
+      "rme": 1.2395432093173435
+    },
+    "Wasm_increment_by_for": {
+      "performance": 347407.73361620936,
+      "rme": 0.8546189413075547
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3616
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3b544583bd1d70c268e6"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 165194.8836116736,
+      "rme": 5.1262284137884295
+    },
+    "Array_increment_by_for": {
+      "performance": 374095.9696808202,
+      "rme": 14.592288422221952
+    },
+    "Wasm_increment_by_map": {
+      "performance": 23869.5795885354,
+      "rme": 3.195404501905756
+    },
+    "Wasm_increment_by_for": {
+      "performance": 418942.47811129,
+      "rme": 0.2100102083835661
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3008
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3b634583bd1d70c268e8"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 203335.05818548508,
+      "rme": 36.333531623973556
+    },
+    "Array_increment_by_for": {
+      "performance": 552639.5664764653,
+      "rme": 3.3897156451241752
+    },
+    "Wasm_increment_by_map": {
+      "performance": 32842.056696055355,
+      "rme": 4.827681143547092
+    },
+    "Wasm_increment_by_for": {
+      "performance": 568496.3446426662,
+      "rme": 0.9234213929681356
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2144
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3b894583bd1d70c268ea"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 133962.28588867982,
+      "rme": 3.581313177268681
+    },
+    "Array_increment_by_for": {
+      "performance": 305855.6917421488,
+      "rme": 15.617775734606884
+    },
+    "Wasm_increment_by_map": {
+      "performance": 20882.235032411674,
+      "rme": 3.0096766668372013
+    },
+    "Wasm_increment_by_for": {
+      "performance": 337019.66423903656,
+      "rme": 3.3037002686846875
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3520
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3bb84583bd1d70c268ee"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 443131.4321012832,
+      "rme": 2.1918448080186717
+    },
+    "Array_increment_by_for": {
+      "performance": 1161067.1303993382,
+      "rme": 0.21932612021896403
+    },
+    "Wasm_increment_by_map": {
+      "performance": 69864.89245410445,
+      "rme": 10.156636721641602
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1129895.4508022151,
+      "rme": 3.330336328030236
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1056
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3bc14583bd1d70c268f3"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 137026.90550398175,
+      "rme": 4.668247157343406
+    },
+    "Array_increment_by_for": {
+      "performance": 360796.5623156951,
+      "rme": 2.0459195021673735
+    },
+    "Wasm_increment_by_map": {
+      "performance": 21821.78433852478,
+      "rme": 6.874620980716544
+    },
+    "Wasm_increment_by_for": {
+      "performance": 371539.8218904709,
+      "rme": 0.6248270983893842
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3392
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3bc14583bd1d70c268f4"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 124501.41358577344,
+      "rme": 5.876577072053159
+    },
+    "Array_increment_by_for": {
+      "performance": 343964.0223764703,
+      "rme": 0.32047351129067436
+    },
+    "Wasm_increment_by_map": {
+      "performance": 20430.744826447524,
+      "rme": 8.726342245941918
+    },
+    "Wasm_increment_by_for": {
+      "performance": 333508.9734700811,
+      "rme": 8.153894672991694
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3648
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3bc14583bd1d70c268f2"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 142385.46967966348,
+      "rme": 9.38496717562461
+    },
+    "Array_increment_by_for": {
+      "performance": 349506.3938735872,
+      "rme": 21.939031345854833
+    },
+    "Wasm_increment_by_map": {
+      "performance": 24840.80857621498,
+      "rme": 1.4525115423415895
+    },
+    "Wasm_increment_by_for": {
+      "performance": 367489.49948003265,
+      "rme": 12.44306322216301
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3232
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3bcf4583bd1d70c268f6"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 358025.65149629273,
+      "rme": 1.9006251258254405
+    },
+    "Array_increment_by_for": {
+      "performance": 891369.6900324697,
+      "rme": 0.2959531965631891
+    },
+    "Wasm_increment_by_map": {
+      "performance": 56990.88002248463,
+      "rme": 2.30325678611829
+    },
+    "Wasm_increment_by_for": {
+      "performance": 826385.2423946299,
+      "rme": 16.5565933768169
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1376
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3c154583bd1d70c268fc"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 118863.20767942454,
+      "rme": 2.7258405143572353
+    },
+    "Array_increment_by_for": {
+      "performance": 307226.0975106555,
+      "rme": 0.9422921894558586
+    },
+    "Wasm_increment_by_map": {
+      "performance": 17825.069600071536,
+      "rme": 4.992550275464196
+    },
+    "Wasm_increment_by_for": {
+      "performance": 310114.66057286086,
+      "rme": 0.35534926411124174
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 4064
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3c274583bd1d70c268fe"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 258521.60069984617,
+      "rme": 2.073042401211493
+    },
+    "Array_increment_by_for": {
+      "performance": 648253.0957487513,
+      "rme": 0.9239514536409063
+    },
+    "Wasm_increment_by_map": {
+      "performance": 41049.511303654974,
+      "rme": 2.5278628874392
+    },
+    "Wasm_increment_by_for": {
+      "performance": 630818.1238011209,
+      "rme": 4.362921340518892
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1888
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3c2b4583bd1d70c26900"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 131896.34591361397,
+      "rme": 4.469363081246696
+    },
+    "Array_increment_by_for": {
+      "performance": 345436.2324571905,
+      "rme": 1.765584207262985
+    },
+    "Wasm_increment_by_map": {
+      "performance": 21259.506973643463,
+      "rme": 5.672213097172399
+    },
+    "Wasm_increment_by_for": {
+      "performance": 353614.2287302966,
+      "rme": 0.4538524268609796
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3552
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3c494583bd1d70c26902"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 117339.7696120359,
+      "rme": 3.936351705696882
+    },
+    "Array_increment_by_for": {
+      "performance": 305808.6392886191,
+      "rme": 2.922602243033965
+    },
+    "Wasm_increment_by_map": {
+      "performance": 19365.7793936306,
+      "rme": 2.631796913892925
+    },
+    "Wasm_increment_by_for": {
+      "performance": 300869.21647302114,
+      "rme": 6.672010360088744
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 4032
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3cc14583bd1d70c26908"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 181888.74638725456,
+      "rme": 17.690619975716782
+    },
+    "Array_increment_by_for": {
+      "performance": 394973.63412114774,
+      "rme": 31.006295816578927
+    },
+    "Wasm_increment_by_map": {
+      "performance": 28367.83422221488,
+      "rme": 5.0845065295996115
+    },
+    "Wasm_increment_by_for": {
+      "performance": 492970.64055528416,
+      "rme": 0.7107111055761632
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2464
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3cc14583bd1d70c2690a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 182036.9602075274,
+      "rme": 6.066644641958502
+    },
+    "Array_increment_by_for": {
+      "performance": 406588.5440711467,
+      "rme": 10.779901136527567
+    },
+    "Wasm_increment_by_map": {
+      "performance": 26100.50272326376,
+      "rme": 9.010034237193112
+    },
+    "Wasm_increment_by_for": {
+      "performance": 445638.53986967844,
+      "rme": 0.9691298964792011
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2720
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3cc94583bd1d70c2690e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 188615.87385874114,
+      "rme": 20.159974716774368
+    },
+    "Array_increment_by_for": {
+      "performance": 521741.7543351194,
+      "rme": 3.6570245462261597
+    },
+    "Wasm_increment_by_map": {
+      "performance": 33117.513167822835,
+      "rme": 0.8809352497191969
+    },
+    "Wasm_increment_by_for": {
+      "performance": 536601.2930212067,
+      "rme": 3.552698810714715
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2208
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3cd44583bd1d70c26910"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 138113.0614360843,
+      "rme": 4.517368527378637
+    },
+    "Array_increment_by_for": {
+      "performance": 350879.9193226454,
+      "rme": 8.229167952424202
+    },
+    "Wasm_increment_by_map": {
+      "performance": 22264.42564207378,
+      "rme": 6.385230114435525
+    },
+    "Wasm_increment_by_for": {
+      "performance": 357849.4610897233,
+      "rme": 7.254715511400704
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3360
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3ce24583bd1d70c26912"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 283114.9531816378,
+      "rme": 7.896300746146423
+    },
+    "Array_increment_by_for": {
+      "performance": 704399.2516771462,
+      "rme": 1.8258769350516397
+    },
+    "Wasm_increment_by_map": {
+      "performance": 46275.071347935496,
+      "rme": 1.6610353356674334
+    },
+    "Wasm_increment_by_for": {
+      "performance": 722131.1203602018,
+      "rme": 0.7777378239633949
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1696
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3cff4583bd1d70c26917"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 420758.6197627423,
+      "rme": 2.376047170278916
+    },
+    "Array_increment_by_for": {
+      "performance": 1093374.6177984362,
+      "rme": 0.3131142885908224
+    },
+    "Wasm_increment_by_map": {
+      "performance": 68920.44359377652,
+      "rme": 1.5230355931284543
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1089580.8690055534,
+      "rme": 0.4166094630884288
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1120
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3cff4583bd1d70c26918"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 135188.68974496934,
+      "rme": 4.982631840161709
+    },
+    "Array_increment_by_for": {
+      "performance": 365008.86401582544,
+      "rme": 1.1663012042835954
+    },
+    "Wasm_increment_by_map": {
+      "performance": 22374.312332051362,
+      "rme": 6.140836954111258
+    },
+    "Wasm_increment_by_for": {
+      "performance": 367258.90813261404,
+      "rme": 0.6382524607714634
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3424
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3d064583bd1d70c2691b"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 136095.25921030855,
+      "rme": 3.16201812626855
+    },
+    "Array_increment_by_for": {
+      "performance": 290669.57220790704,
+      "rme": 26.582609105021348
+    },
+    "Wasm_increment_by_map": {
+      "performance": 22505.697686254065,
+      "rme": 1.0894187786260314
+    },
+    "Wasm_increment_by_for": {
+      "performance": 354449.4620455339,
+      "rme": 3.004349008525032
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3488
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3d064583bd1d70c2691c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 113119.21607407193,
+      "rme": 9.45112412141324
+    },
+    "Array_increment_by_for": {
+      "performance": 312438.2923097765,
+      "rme": 0.6679045131845773
+    },
+    "Wasm_increment_by_map": {
+      "performance": 19360.79401701225,
+      "rme": 1.4319898579258736
+    },
+    "Wasm_increment_by_for": {
+      "performance": 313010.38039295573,
+      "rme": 1.131860305647927
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 4000
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3d204583bd1d70c2691e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 259504.61205121005,
+      "rme": 5.23877685549528
+    },
+    "Array_increment_by_for": {
+      "performance": 675106.74637607,
+      "rme": 2.4582759350873484
+    },
+    "Wasm_increment_by_map": {
+      "performance": 44772.62450362782,
+      "rme": 0.9702914620031533
+    },
+    "Wasm_increment_by_for": {
+      "performance": 679553.0593964652,
+      "rme": 3.533993276218276
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1760
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3d204583bd1d70c26920"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 123925.58426968312,
+      "rme": 3.950921285147581
+    },
+    "Array_increment_by_for": {
+      "performance": 331612.9919973528,
+      "rme": 0.4736599497451818
+    },
+    "Wasm_increment_by_map": {
+      "performance": 20388.396720516284,
+      "rme": 2.581667341321865
+    },
+    "Wasm_increment_by_for": {
+      "performance": 331025.52624867525,
+      "rme": 1.405565378392941
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3776
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3d384583bd1d70c26922"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 123003.34957729772,
+      "rme": 4.142889712255978
+    },
+    "Array_increment_by_for": {
+      "performance": 329041.4189595627,
+      "rme": 0.27409323457423795
+    },
+    "Wasm_increment_by_map": {
+      "performance": 19971.770489722097,
+      "rme": 1.6849624577929156
+    },
+    "Wasm_increment_by_for": {
+      "performance": 329037.3490017534,
+      "rme": 0.7622990588947409
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3808
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3d484583bd1d70c26925"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 140723.43837146772,
+      "rme": 7.687378603790686
+    },
+    "Array_increment_by_for": {
+      "performance": 375463.8663621285,
+      "rme": 7.387149969775264
+    },
+    "Wasm_increment_by_map": {
+      "performance": 24239.628536005137,
+      "rme": 1.21473175134983
+    },
+    "Wasm_increment_by_for": {
+      "performance": 384614.38778403605,
+      "rme": 0.4626127713026806
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3264
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3d564583bd1d70c26928"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 146168.2856377128,
+      "rme": 2.0933337336868667
+    },
+    "Array_increment_by_for": {
+      "performance": 382220.09618687286,
+      "rme": 0.22322015464839062
+    },
+    "Wasm_increment_by_map": {
+      "performance": 23717.744078317173,
+      "rme": 1.0628704846424908
+    },
+    "Wasm_increment_by_for": {
+      "performance": 380362.4433193124,
+      "rme": 0.3731960349529597
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3296
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3d614583bd1d70c2692a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 121633.85723131441,
+      "rme": 3.828458030279914
+    },
+    "Array_increment_by_for": {
+      "performance": 323447.28623022017,
+      "rme": 1.291008857062976
+    },
+    "Wasm_increment_by_map": {
+      "performance": 20638.86748320766,
+      "rme": 0.9125286168931626
+    },
+    "Wasm_increment_by_for": {
+      "performance": 321556.6754290937,
+      "rme": 1.164487007333296
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3872
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3d6f4583bd1d70c2692c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 186812.0866603824,
+      "rme": 4.342923498592542
+    },
+    "Array_increment_by_for": {
+      "performance": 478926.8923125783,
+      "rme": 0.9750317849392722
+    },
+    "Wasm_increment_by_map": {
+      "performance": 31366.293409240876,
+      "rme": 2.602342122417066
+    },
+    "Wasm_increment_by_for": {
+      "performance": 470291.2395987641,
+      "rme": 2.5220188635988725
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2528
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3d7f4583bd1d70c2692e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 155360.6550583885,
+      "rme": 3.3644838115049454
+    },
+    "Array_increment_by_for": {
+      "performance": 350399.6071786018,
+      "rme": 14.775080994268269
+    },
+    "Wasm_increment_by_map": {
+      "performance": 25489.887876028646,
+      "rme": 0.8546527906827284
+    },
+    "Wasm_increment_by_for": {
+      "performance": 380808.07596399746,
+      "rme": 5.918856693851023
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3104
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3d974583bd1d70c26930"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 120204.84270549058,
+      "rme": 5.321183886316486
+    },
+    "Array_increment_by_for": {
+      "performance": 317974.2349359324,
+      "rme": 0.30286403199495787
+    },
+    "Wasm_increment_by_map": {
+      "performance": 20069.312453213417,
+      "rme": 2.101015772225424
+    },
+    "Wasm_increment_by_for": {
+      "performance": 309273.08587118564,
+      "rme": 3.5611291674253622
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3936
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3da24583bd1d70c26934"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 148359.01257731504,
+      "rme": 3.9265970464798925
+    },
+    "Array_increment_by_for": {
+      "performance": 393739.9673796839,
+      "rme": 4.837131415996521
+    },
+    "Wasm_increment_by_map": {
+      "performance": 24714.229668806594,
+      "rme": 1.9613326286783916
+    },
+    "Wasm_increment_by_for": {
+      "performance": 393790.28029537975,
+      "rme": 1.1516510892503087
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3136
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3da24583bd1d70c26933"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 123684.52416366203,
+      "rme": 5.801268643359941
+    },
+    "Array_increment_by_for": {
+      "performance": 332543.49636342097,
+      "rme": 0.9350074539535104
+    },
+    "Wasm_increment_by_map": {
+      "performance": 20997.112054761248,
+      "rme": 1.5219196041669183
+    },
+    "Wasm_increment_by_for": {
+      "performance": 328497.75526497234,
+      "rme": 2.0033232309005506
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3744
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3daa4583bd1d70c26936"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 358504.51722959656,
+      "rme": 3.58310324682702
+    },
+    "Array_increment_by_for": {
+      "performance": 920390.1812424004,
+      "rme": 0.9380557273994169
+    },
+    "Wasm_increment_by_map": {
+      "performance": 55513.31502583786,
+      "rme": 12.662582836368774
+    },
+    "Wasm_increment_by_for": {
+      "performance": 898532.0738198573,
+      "rme": 2.4229022654817776
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1312
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3db54583bd1d70c26938"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 161332.5118640242,
+      "rme": 2.053769749664411
+    },
+    "Array_increment_by_for": {
+      "performance": 399576.2829145694,
+      "rme": 3.5366361752803783
+    },
+    "Wasm_increment_by_map": {
+      "performance": 25987.104410353237,
+      "rme": 0.8947158437944852
+    },
+    "Wasm_increment_by_for": {
+      "performance": 395946.68159463466,
+      "rme": 3.3374563624659235
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3040
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3dc04583bd1d70c2693a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 148165.54968389563,
+      "rme": 5.590888223969805
+    },
+    "Array_increment_by_for": {
+      "performance": 385968.87720012845,
+      "rme": 1.7339006298170163
+    },
+    "Wasm_increment_by_map": {
+      "performance": 24619.603331166734,
+      "rme": 1.7733929170291745
+    },
+    "Wasm_increment_by_for": {
+      "performance": 394257.6146716897,
+      "rme": 1.3159153106514538
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3168
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3ddf4583bd1d70c2693c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 237536.82063334328,
+      "rme": 9.935536313113463
+    },
+    "Array_increment_by_for": {
+      "performance": 572539.822262038,
+      "rme": 4.646039858248138
+    },
+    "Wasm_increment_by_map": {
+      "performance": 38183.311366201924,
+      "rme": 1.6131889801112096
+    },
+    "Wasm_increment_by_for": {
+      "performance": 600732.593110198,
+      "rme": 1.0603161004144006
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2016
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3de44583bd1d70c2693e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 159627.84755194545,
+      "rme": 8.62651064074725
+    },
+    "Array_increment_by_for": {
+      "performance": 397600.8080250273,
+      "rme": 4.3301263298124875
+    },
+    "Wasm_increment_by_map": {
+      "performance": 26697.90124754132,
+      "rme": 0.9964032591235624
+    },
+    "Wasm_increment_by_for": {
+      "performance": 404229.28645369253,
+      "rme": 1.6218558370570517
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2976
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3df04583bd1d70c26940"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 253532.36029021832,
+      "rme": 4.291164977961569
+    },
+    "Array_increment_by_for": {
+      "performance": 595606.1492977791,
+      "rme": 3.301168141501645
+    },
+    "Wasm_increment_by_map": {
+      "performance": 39728.19189815698,
+      "rme": 1.0058453426802614
+    },
+    "Wasm_increment_by_for": {
+      "performance": 608221.6880890365,
+      "rme": 1.483804130788751
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1984
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e0c4583bd1d70c26946"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 419328.6895585855,
+      "rme": 7.6685875709023135
+    },
+    "Array_increment_by_for": {
+      "performance": 1121561.5530665773,
+      "rme": 0.4792873199905598
+    },
+    "Wasm_increment_by_map": {
+      "performance": 70868.25771688792,
+      "rme": 1.2364551517575353
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1110336.5830086283,
+      "rme": 0.8228597636863235
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1088
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e1d4583bd1d70c2694c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 311057.4985848646,
+      "rme": 4.9673944936760215
+    },
+    "Array_increment_by_for": {
+      "performance": 815167.9363120021,
+      "rme": 1.4568327450113434
+    },
+    "Wasm_increment_by_map": {
+      "performance": 52395.64173503963,
+      "rme": 2.0732640102340163
+    },
+    "Wasm_increment_by_for": {
+      "performance": 835036.2325494243,
+      "rme": 0.24600270646675532
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1472
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e224583bd1d70c2694e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 168043.9093718694,
+      "rme": 3.54843305440052
+    },
+    "Array_increment_by_for": {
+      "performance": 423004.12050817127,
+      "rme": 1.5711147858211612
+    },
+    "Wasm_increment_by_map": {
+      "performance": 27200.657435974495,
+      "rme": 6.3446749148303585
+    },
+    "Wasm_increment_by_for": {
+      "performance": 426341.60825841856,
+      "rme": 1.1211390806386732
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2848
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e3d4583bd1d70c26950"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 393386.57100374566,
+      "rme": 1.5799481905732609
+    },
+    "Array_increment_by_for": {
+      "performance": 980227.6414190328,
+      "rme": 0.7713290031755987
+    },
+    "Wasm_increment_by_map": {
+      "performance": 62021.48013715522,
+      "rme": 2.0656654592003565
+    },
+    "Wasm_increment_by_for": {
+      "performance": 983696.1720093081,
+      "rme": 0.1628206943808032
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1248
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e534583bd1d70c26954"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 122888.5936022993,
+      "rme": 3.3037759560033493
+    },
+    "Array_increment_by_for": {
+      "performance": 313878.5138772208,
+      "rme": 1.1292890175267918
+    },
+    "Wasm_increment_by_map": {
+      "performance": 20405.957119721275,
+      "rme": 0.9834343122000736
+    },
+    "Wasm_increment_by_for": {
+      "performance": 309351.04086102213,
+      "rme": 6.229921138986076
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3904
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e6b4583bd1d70c26956"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 233601.31815146015,
+      "rme": 2.611492720969889
+    },
+    "Array_increment_by_for": {
+      "performance": 556696.8254689315,
+      "rme": 4.733099270934744
+    },
+    "Wasm_increment_by_map": {
+      "performance": 38232.42460732186,
+      "rme": 0.3231597819873623
+    },
+    "Wasm_increment_by_for": {
+      "performance": 548305.091583752,
+      "rme": 6.955842035769343
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2112
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e6f4583bd1d70c26958"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 274111.17418403795,
+      "rme": 4.452194567346547
+    },
+    "Array_increment_by_for": {
+      "performance": 692394.4340629671,
+      "rme": 3.306050329602501
+    },
+    "Wasm_increment_by_map": {
+      "performance": 44786.86843302599,
+      "rme": 1.7669433211186902
+    },
+    "Wasm_increment_by_for": {
+      "performance": 705088.9208396844,
+      "rme": 1.0205886826996593
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1728
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e724583bd1d70c2695a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 186931.67660883852,
+      "rme": 3.8114291796633615
+    },
+    "Array_increment_by_for": {
+      "performance": 481865.0662531934,
+      "rme": 1.4791377503666967
+    },
+    "Wasm_increment_by_map": {
+      "performance": 31319.54238862645,
+      "rme": 1.594680418070809
+    },
+    "Wasm_increment_by_for": {
+      "performance": 490792.4202529385,
+      "rme": 0.37907152939936545
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2496
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e7d4583bd1d70c2695c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 183858.9984212516,
+      "rme": 2.6379277915804975
+    },
+    "Array_increment_by_for": {
+      "performance": 458805.93668257736,
+      "rme": 1.3191421659513172
+    },
+    "Wasm_increment_by_map": {
+      "performance": 29787.721565382086,
+      "rme": 2.9840931420886974
+    },
+    "Wasm_increment_by_for": {
+      "performance": 468256.2971951577,
+      "rme": 0.3401669028193407
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2624
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e824583bd1d70c26960"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 186082.67052448995,
+      "rme": 8.126640410980379
+    },
+    "Array_increment_by_for": {
+      "performance": 501124.73629065225,
+      "rme": 3.365023238992446
+    },
+    "Wasm_increment_by_map": {
+      "performance": 33865.8785654371,
+      "rme": 0.945012163322884
+    },
+    "Wasm_increment_by_for": {
+      "performance": 521872.5300254135,
+      "rme": 0.9365494248915246
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2336
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e824583bd1d70c2695f"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 157586.22024855055,
+      "rme": 11.375627031329412
+    },
+    "Array_increment_by_for": {
+      "performance": 410770.5366379528,
+      "rme": 1.2750846846630908
+    },
+    "Wasm_increment_by_map": {
+      "performance": 26873.493416327336,
+      "rme": 1.1193788914479907
+    },
+    "Wasm_increment_by_for": {
+      "performance": 410543.4059839202,
+      "rme": 4.4937253556334475
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2912
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e834583bd1d70c26964"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 240740.55352469615,
+      "rme": 4.135981504271121
+    },
+    "Array_increment_by_for": {
+      "performance": 581100.7593653037,
+      "rme": 0.7484732962909466
+    },
+    "Wasm_increment_by_map": {
+      "performance": 36937.87857744717,
+      "rme": 2.258596251007385
+    },
+    "Wasm_increment_by_for": {
+      "performance": 588798.1527909411,
+      "rme": 0.5967493813651563
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2080
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e884583bd1d70c26968"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 293063.82221309823,
+      "rme": 3.509178037401904
+    },
+    "Array_increment_by_for": {
+      "performance": 743171.6872586099,
+      "rme": 0.725712224731923
+    },
+    "Wasm_increment_by_map": {
+      "performance": 47659.26031622474,
+      "rme": 1.128603479318461
+    },
+    "Wasm_increment_by_for": {
+      "performance": 750151.538274864,
+      "rme": 0.5328138892805124
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1632
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e884583bd1d70c26969"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 201665.6090442995,
+      "rme": 8.674021276747284
+    },
+    "Array_increment_by_for": {
+      "performance": 503304.23130674224,
+      "rme": 0.9568921843340936
+    },
+    "Wasm_increment_by_map": {
+      "performance": 32889.87445926505,
+      "rme": 1.336126993716955
+    },
+    "Wasm_increment_by_for": {
+      "performance": 511125.3434228626,
+      "rme": 0.27491250555878616
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2400
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e884583bd1d70c2696a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 201176.78428055634,
+      "rme": 23.825388383890868
+    },
+    "Array_increment_by_for": {
+      "performance": 527391.8664313136,
+      "rme": 3.8490956976372543
+    },
+    "Wasm_increment_by_map": {
+      "performance": 35297.53177972243,
+      "rme": 0.9615046379560246
+    },
+    "Wasm_increment_by_for": {
+      "performance": 548128.1853557132,
+      "rme": 0.3519938148293214
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2240
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e8a4583bd1d70c2696e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 132026.5509534979,
+      "rme": 2.101560481198424
+    },
+    "Array_increment_by_for": {
+      "performance": 335898.735345853,
+      "rme": 0.7491759697535533
+    },
+    "Wasm_increment_by_map": {
+      "performance": 21215.982931099585,
+      "rme": 1.6036332798410984
+    },
+    "Wasm_increment_by_for": {
+      "performance": 337631.7161779103,
+      "rme": 1.8487688997305007
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 3680
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e904583bd1d70c26970"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 329218.45276263787,
+      "rme": 2.299103683011018
+    },
+    "Array_increment_by_for": {
+      "performance": 790719.6186092664,
+      "rme": 1.7869848784092937
+    },
+    "Wasm_increment_by_map": {
+      "performance": 53551.91074537514,
+      "rme": 1.2910236202270067
+    },
+    "Wasm_increment_by_for": {
+      "performance": 796110.7107610595,
+      "rme": 3.5852958984363568
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1504
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e974583bd1d70c26972"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 315475.2526989169,
+      "rme": 2.051579931672607
+    },
+    "Array_increment_by_for": {
+      "performance": 763565.6499087008,
+      "rme": 2.140340665870397
+    },
+    "Wasm_increment_by_map": {
+      "performance": 48488.67502717398,
+      "rme": 2.7324102485856994
+    },
+    "Wasm_increment_by_for": {
+      "performance": 773015.41302661,
+      "rme": 1.9609721862707798
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1568
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3e9f4583bd1d70c26976"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 270923.0654990289,
+      "rme": 1.56160932645066
+    },
+    "Array_increment_by_for": {
+      "performance": 656946.404085887,
+      "rme": 1.583444564564051
+    },
+    "Wasm_increment_by_map": {
+      "performance": 42501.93034716112,
+      "rme": 1.829421611163324
+    },
+    "Wasm_increment_by_for": {
+      "performance": 670279.4923543589,
+      "rme": 1.0015685133192844
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1824
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3ea34583bd1d70c26978"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 259322.82435508486,
+      "rme": 3.194975366397082
+    },
+    "Array_increment_by_for": {
+      "performance": 653563.0596481998,
+      "rme": 0.9527247268668418
+    },
+    "Wasm_increment_by_map": {
+      "performance": 42315.40765629194,
+      "rme": 0.7803743468952515
+    },
+    "Wasm_increment_by_for": {
+      "performance": 661248.0190684234,
+      "rme": 0.32254092033112425
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1856
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3ea44583bd1d70c2697c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 178791.9612371555,
+      "rme": 4.495186211171551
+    },
+    "Array_increment_by_for": {
+      "performance": 453620.8213261379,
+      "rme": 1.414884603459004
+    },
+    "Wasm_increment_by_map": {
+      "performance": 29213.17978538513,
+      "rme": 1.9881758589275846
+    },
+    "Wasm_increment_by_for": {
+      "performance": 456608.63378119335,
+      "rme": 1.971053252407443
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2656
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3ea44583bd1d70c2697e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 170368.6820504717,
+      "rme": 4.181223570099337
+    },
+    "Array_increment_by_for": {
+      "performance": 433283.50494607387,
+      "rme": 2.062948762574189
+    },
+    "Wasm_increment_by_map": {
+      "performance": 28253.877957010638,
+      "rme": 1.0006033849127423
+    },
+    "Wasm_increment_by_for": {
+      "performance": 430625.75749064184,
+      "rme": 2.7952298667430657
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2784
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3ea44583bd1d70c2697d"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 169509.22925149812,
+      "rme": 1.7071134422109828
+    },
+    "Array_increment_by_for": {
+      "performance": 421335.74972528504,
+      "rme": 0.7319660134203331
+    },
+    "Wasm_increment_by_map": {
+      "performance": 27523.66157137148,
+      "rme": 1.5061459482200845
+    },
+    "Wasm_increment_by_for": {
+      "performance": 417807.09791919775,
+      "rme": 2.3648325650950923
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2880
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3ea64583bd1d70c26983"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 296839.1212316902,
+      "rme": 3.612905760629458
+    },
+    "Array_increment_by_for": {
+      "performance": 755826.6801562782,
+      "rme": 1.3329403546385477
+    },
+    "Wasm_increment_by_map": {
+      "performance": 48648.71799092324,
+      "rme": 1.512694581788292
+    },
+    "Wasm_increment_by_for": {
+      "performance": 757721.70140585,
+      "rme": 1.6570239943609386
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1600
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3ea64583bd1d70c26984"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 207052.2382802925,
+      "rme": 5.793137128824064
+    },
+    "Array_increment_by_for": {
+      "performance": 525192.1716654667,
+      "rme": 2.0998934030041583
+    },
+    "Wasm_increment_by_map": {
+      "performance": 34226.66015078959,
+      "rme": 3.204008265380081
+    },
+    "Wasm_increment_by_for": {
+      "performance": 536914.6762755442,
+      "rme": 1.0386443947690047
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2272
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3ea64583bd1d70c26986"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 360801.67933883175,
+      "rme": 2.9880158166908157
+    },
+    "Array_increment_by_for": {
+      "performance": 891421.5130445692,
+      "rme": 2.010386650192581
+    },
+    "Wasm_increment_by_map": {
+      "performance": 58119.439046804466,
+      "rme": 1.5443333747942116
+    },
+    "Wasm_increment_by_for": {
+      "performance": 894049.2209613777,
+      "rme": 2.2243599529820473
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1344
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3ea64583bd1d70c26988"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 330559.85902036354,
+      "rme": 3.9244530695044495
+    },
+    "Array_increment_by_for": {
+      "performance": 843534.3128240466,
+      "rme": 0.8257152920446197
+    },
+    "Wasm_increment_by_map": {
+      "performance": 54091.96029810225,
+      "rme": 1.375643194578669
+    },
+    "Wasm_increment_by_for": {
+      "performance": 838008.4136247113,
+      "rme": 2.078217500189293
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1440
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3ea84583bd1d70c2698c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 178452.30134762364,
+      "rme": 5.502892180847022
+    },
+    "Array_increment_by_for": {
+      "performance": 469749.42628218787,
+      "rme": 0.7260185910915143
+    },
+    "Wasm_increment_by_map": {
+      "performance": 30586.890418730603,
+      "rme": 1.029500368556161
+    },
+    "Wasm_increment_by_for": {
+      "performance": 472881.90429833875,
+      "rme": 0.49095761548955286
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2592
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3ea84583bd1d70c2698e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 169860.3844212273,
+      "rme": 3.9320106074335657
+    },
+    "Array_increment_by_for": {
+      "performance": 439177.2629054955,
+      "rme": 1.2996273209768214
+    },
+    "Wasm_increment_by_map": {
+      "performance": 28710.08225152128,
+      "rme": 1.012153823672351
+    },
+    "Wasm_increment_by_for": {
+      "performance": 433731.8122257681,
+      "rme": 2.4731909729425725
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2752
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3ead4583bd1d70c26996"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 256863.18557869855,
+      "rme": 1.2744025055373733
+    },
+    "Array_increment_by_for": {
+      "performance": 623063.4674903441,
+      "rme": 0.6970746671002482
+    },
+    "Wasm_increment_by_map": {
+      "performance": 40328.46929512691,
+      "rme": 1.0474727180587355
+    },
+    "Wasm_increment_by_for": {
+      "performance": 627625.482992335,
+      "rme": 0.2642388690050471
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1952
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3eb64583bd1d70c26999"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 205820.4423179541,
+      "rme": 2.5892282767872787
+    },
+    "Array_increment_by_for": {
+      "performance": 503683.9792623104,
+      "rme": 2.2544349111347066
+    },
+    "Wasm_increment_by_map": {
+      "performance": 34054.90245054788,
+      "rme": 0.39842618522999823
+    },
+    "Wasm_increment_by_for": {
+      "performance": 519940.0839246831,
+      "rme": 0.1271165641759179
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2368
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3eb64583bd1d70c2699d"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 405432.16156065685,
+      "rme": 3.2488311442513615
+    },
+    "Array_increment_by_for": {
+      "performance": 1003921.622600212,
+      "rme": 1.4093108808544526
+    },
+    "Wasm_increment_by_map": {
+      "performance": 66645.33086051053,
+      "rme": 2.562682393079903
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1034191.6296344985,
+      "rme": 0.18510296567715273
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1184
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3eb64583bd1d70c2699e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 404578.1771240977,
+      "rme": 1.3860157636996833
+    },
+    "Array_increment_by_for": {
+      "performance": 985747.4768819129,
+      "rme": 1.2393056612517
+    },
+    "Wasm_increment_by_map": {
+      "performance": 63923.5500161699,
+      "rme": 2.4320133312315177
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1005851.0869908764,
+      "rme": 0.3279145678772608
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1216
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3f8a4583bd1d70c269a0"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 2978.013884000876,
+      "rme": 9.115518867740773
+    },
+    "Array_increment_by_for": {
+      "performance": 34004.24010250429,
+      "rme": 3.0228230582685547
+    },
+    "Wasm_increment_by_map": {
+      "performance": 2250.6362093307275,
+      "rme": 0.7826913360860379
+    },
+    "Wasm_increment_by_for": {
+      "performance": 39147.76465924893,
+      "rme": 0.047627479918554566
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 32768
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3fa94583bd1d70c269a2"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1093.8500683404725,
+      "rme": 0.21711063472015618
+    },
+    "Array_increment_by_for": {
+      "performance": 17058.76387236452,
+      "rme": 2.9329179985362006
+    },
+    "Wasm_increment_by_map": {
+      "performance": 1131.525510147111,
+      "rme": 0.7304758667849083
+    },
+    "Wasm_increment_by_for": {
+      "performance": 19558.43971600549,
+      "rme": 0.05897525270759293
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 65536
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3fc84583bd1d70c269a4"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 526.1942521189662,
+      "rme": 1.5763344284107732
+    },
+    "Array_increment_by_for": {
+      "performance": 8395.036805837308,
+      "rme": 3.050046988181765
+    },
+    "Wasm_increment_by_map": {
+      "performance": 555.8446987979705,
+      "rme": 0.986404863312965
+    },
+    "Wasm_increment_by_for": {
+      "performance": 9682.480969808872,
+      "rme": 0.7006234648402179
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 131072
+  }
+},{
+  "_id": {
+    "$oid": "5fdf3feb4583bd1d70c269a6"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 270.8140302215132,
+      "rme": 0.69229497800151
+    },
+    "Array_increment_by_for": {
+      "performance": 3989.916780907551,
+      "rme": 4.309509162593783
+    },
+    "Wasm_increment_by_map": {
+      "performance": 287.4485776515974,
+      "rme": 1.0008976321617296
+    },
+    "Wasm_increment_by_for": {
+      "performance": 4763.82902815817,
+      "rme": 0.9974209503007387
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 262144
+  }
+},{
+  "_id": {
+    "$oid": "5fdf40144583bd1d70c269a8"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 124.33405689848775,
+      "rme": 0.9465170348577268
+    },
+    "Array_increment_by_for": {
+      "performance": 2099.0685071793787,
+      "rme": 2.8377433870806974
+    },
+    "Wasm_increment_by_map": {
+      "performance": 146.35910371910992,
+      "rme": 0.12540848518011075
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2408.9069854881527,
+      "rme": 0.3503597778442191
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 524288
+  }
+},{
+  "_id": {
+    "$oid": "5fdf403a4583bd1d70c269aa"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 57.48918149439541,
+      "rme": 1.7177247814338155
+    },
+    "Array_increment_by_for": {
+      "performance": 956.5610529879723,
+      "rme": 3.396314097978647
+    },
+    "Wasm_increment_by_map": {
+      "performance": 72.24735342648277,
+      "rme": 0.46869452075386586
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1190.7041795429143,
+      "rme": 0.7049081307788613
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1048576
+  }
+},{
+  "_id": {
+    "$oid": "5fdf40654583bd1d70c269ac"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 33.24149225793939,
+      "rme": 1.4691739924887315
+    },
+    "Array_increment_by_for": {
+      "performance": 462.4160874697681,
+      "rme": 1.753818675294212
+    },
+    "Wasm_increment_by_map": {
+      "performance": 34.68966452666126,
+      "rme": 1.5006868603912336
+    },
+    "Wasm_increment_by_for": {
+      "performance": 573.3655419530754,
+      "rme": 0.3332967239509034
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2097152
+  }
+},{
+  "_id": {
+    "$oid": "5fdf40ab4583bd1d70c269ae"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 16.92619740682788,
+      "rme": 0.6547095382463031
+    },
+    "Array_increment_by_for": {
+      "performance": 242.77048665500976,
+      "rme": 2.673555096190416
+    },
+    "Wasm_increment_by_map": {
+      "performance": 18.060469599255132,
+      "rme": 0.9528630538482966
+    },
+    "Wasm_increment_by_for": {
+      "performance": 302.5684403923639,
+      "rme": 0.5478123964285944
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 4194304
+  }
+},{
+  "_id": {
+    "$oid": "5fdf44c14583bd1d70c269b0"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 8.640899202812408,
+      "rme": 0.634340774429232
+    },
+    "Array_increment_by_for": {
+      "performance": 123.02697317945083,
+      "rme": 3.5752474474318667
+    },
+    "Wasm_increment_by_map": {
+      "performance": 9.126172183061648,
+      "rme": 1.2406995191563253
+    },
+    "Wasm_increment_by_for": {
+      "performance": 152.37261302615403,
+      "rme": 0.055158278954834064
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 8388608
+  }
+},{
+  "_id": {
+    "$oid": "5fdf46104583bd1d70c269b2"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 767877.9514895948,
+      "rme": 0.7757122455412374
+    },
+    "Array_increment_by_for": {
+      "performance": 1900777.0041454278,
+      "rme": 0.5405574816550908
+    },
+    "Wasm_increment_by_map": {
+      "performance": 123562.71998080764,
+      "rme": 1.4002138874158512
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1893286.6636259626,
+      "rme": 0.5388403010123466
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 640
+  }
+},{
+  "_id": {
+    "$oid": "5fdf461c4583bd1d70c269b6"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 345732.42942306295,
+      "rme": 10.229813150139618
+    },
+    "Array_increment_by_for": {
+      "performance": 838925.7178412217,
+      "rme": 0.9709608705852903
+    },
+    "Wasm_increment_by_map": {
+      "performance": 49680.5207261987,
+      "rme": 1.5207405331123656
+    },
+    "Wasm_increment_by_for": {
+      "performance": 834407.4944192953,
+      "rme": 2.642276853905286
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1456
+  }
+},{
+  "_id": {
+    "$oid": "5fdf461c4583bd1d70c269b5"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 572426.3268102936,
+      "rme": 0.9128079234436848
+    },
+    "Array_increment_by_for": {
+      "performance": 1414880.4811859548,
+      "rme": 0.27052630998520205
+    },
+    "Wasm_increment_by_map": {
+      "performance": 86384.94573662548,
+      "rme": 9.807732289831831
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1412705.4369739161,
+      "rme": 0.4932171000388643
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 864
+  }
+},{
+  "_id": {
+    "$oid": "5fdf46294583bd1d70c269b8"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1467961.7674094916,
+      "rme": 2.9133436668787565
+    },
+    "Array_increment_by_for": {
+      "performance": 3625972.0447310423,
+      "rme": 4.484957821848342
+    },
+    "Wasm_increment_by_map": {
+      "performance": 219551.34672282808,
+      "rme": 1.370682379530642
+    },
+    "Wasm_increment_by_for": {
+      "performance": 3704021.880029651,
+      "rme": 0.47315093849978923
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 320
+  }
+},{
+  "_id": {
+    "$oid": "5fdf46364583bd1d70c269ba"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 733194.1985261727,
+      "rme": 1.7664204777266317
+    },
+    "Array_increment_by_for": {
+      "performance": 1837500.5194120887,
+      "rme": 0.5652437247982384
+    },
+    "Wasm_increment_by_map": {
+      "performance": 114794.28537969122,
+      "rme": 2.8197077442195524
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1847452.4061718304,
+      "rme": 0.8481900290451417
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 656
+  }
+},{
+  "_id": {
+    "$oid": "5fdf465d4583bd1d70c269bc"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1829224.005338606,
+      "rme": 3.406112644210423
+    },
+    "Array_increment_by_for": {
+      "performance": 4613755.821169863,
+      "rme": 0.624139535456218
+    },
+    "Wasm_increment_by_map": {
+      "performance": 283850.0153170498,
+      "rme": 3.6256391053753085
+    },
+    "Wasm_increment_by_for": {
+      "performance": 4563037.907756025,
+      "rme": 0.6900345481952176
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 256
+  }
+},{
+  "_id": {
+    "$oid": "5fdf46844583bd1d70c269bf"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 623387.2467845376,
+      "rme": 1.4441556247733653
+    },
+    "Array_increment_by_for": {
+      "performance": 1520718.4598186666,
+      "rme": 0.5123036207477671
+    },
+    "Wasm_increment_by_map": {
+      "performance": 96829.110932933,
+      "rme": 5.7006505215739915
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1508813.9547024907,
+      "rme": 1.764343636840622
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 800
+  }
+},{
+  "_id": {
+    "$oid": "5fdf46844583bd1d70c269c0"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 6821729.4643198475,
+      "rme": 4.152703669667761
+    },
+    "Array_increment_by_for": {
+      "performance": 16061230.656557685,
+      "rme": 3.017932434736802
+    },
+    "Wasm_increment_by_map": {
+      "performance": 810044.4500444432,
+      "rme": 2.6015967610461335
+    },
+    "Wasm_increment_by_for": {
+      "performance": 16002289.964632398,
+      "rme": 3.2271512988840447
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 64
+  }
+},{
+  "_id": {
+    "$oid": "5fdf46914583bd1d70c269c2"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 582959.5611550789,
+      "rme": 1.0773130325704328
+    },
+    "Array_increment_by_for": {
+      "performance": 1430325.2566473645,
+      "rme": 1.835698735257164
+    },
+    "Wasm_increment_by_map": {
+      "performance": 90068.37620366666,
+      "rme": 5.267336558229102
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1426089.4371010577,
+      "rme": 0.43939026189483515
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 848
+  }
+},{
+  "_id": {
+    "$oid": "5fdf469d4583bd1d70c269c4"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 396040.0373623782,
+      "rme": 4.035719577803197
+    },
+    "Array_increment_by_for": {
+      "performance": 941168.6225014374,
+      "rme": 0.5691646489414054
+    },
+    "Wasm_increment_by_map": {
+      "performance": 61912.53831964541,
+      "rme": 1.3430291890647694
+    },
+    "Wasm_increment_by_for": {
+      "performance": 945587.5166526355,
+      "rme": 0.419615040839391
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1296
+  }
+},{
+  "_id": {
+    "$oid": "5fdf46b74583bd1d70c269c6"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 564682.679208487,
+      "rme": 2.0799211141048355
+    },
+    "Array_increment_by_for": {
+      "performance": 1382708.9114538198,
+      "rme": 0.7097896847321021
+    },
+    "Wasm_increment_by_map": {
+      "performance": 88053.79753417017,
+      "rme": 1.6453113877971284
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1384986.8957242318,
+      "rme": 0.5251102860685921
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 880
+  }
+},{
+  "_id": {
+    "$oid": "5fdf46c34583bd1d70c269c8"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 12762482.572124194,
+      "rme": 3.7408493751345744
+    },
+    "Array_increment_by_for": {
+      "performance": 28616715.119919315,
+      "rme": 2.3953297255294546
+    },
+    "Wasm_increment_by_map": {
+      "performance": 1338239.7130430853,
+      "rme": 1.5247712399458746
+    },
+    "Wasm_increment_by_for": {
+      "performance": 28560447.847391512,
+      "rme": 2.553460296356741
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 32
+  }
+},{
+  "_id": {
+    "$oid": "5fdf46d04583bd1d70c269ca"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1147236.5953699027,
+      "rme": 2.8285793791830764
+    },
+    "Array_increment_by_for": {
+      "performance": 2881548.7347704517,
+      "rme": 1.076496135531307
+    },
+    "Wasm_increment_by_map": {
+      "performance": 186776.75678649262,
+      "rme": 0.7903380299199304
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2873555.3115591067,
+      "rme": 0.3852694370568115
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 416
+  }
+},{
+  "_id": {
+    "$oid": "5fdf46e84583bd1d70c269cc"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 709314.7570501472,
+      "rme": 1.2226887776841084
+    },
+    "Array_increment_by_for": {
+      "performance": 1769553.019206818,
+      "rme": 0.48985387490429355
+    },
+    "Wasm_increment_by_map": {
+      "performance": 115464.48708685776,
+      "rme": 0.8012353302438546
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1766023.506620206,
+      "rme": 0.13162661447057825
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 688
+  }
+},{
+  "_id": {
+    "$oid": "5fdf46f54583bd1d70c269ce"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 603926.9832540808,
+      "rme": 0.961609754242828
+    },
+    "Array_increment_by_for": {
+      "performance": 1464857.8411133706,
+      "rme": 1.0130679377358556
+    },
+    "Wasm_increment_by_map": {
+      "performance": 87226.03485936808,
+      "rme": 4.727606792851467
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1465920.8764068452,
+      "rme": 0.24602964801543392
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 832
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47074583bd1d70c269d0"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1241612.169634432,
+      "rme": 1.7163423429874345
+    },
+    "Array_increment_by_for": {
+      "performance": 3109920.8894854104,
+      "rme": 1.0199003824880752
+    },
+    "Wasm_increment_by_map": {
+      "performance": 197092.270713076,
+      "rme": 1.9683732802355771
+    },
+    "Wasm_increment_by_for": {
+      "performance": 3106246.9156357613,
+      "rme": 0.2250466098375209
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 384
+  }
+},{
+  "_id": {
+    "$oid": "5fdf472b4583bd1d70c269d2"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 670163.1390022683,
+      "rme": 1.3530800668250227
+    },
+    "Array_increment_by_for": {
+      "performance": 1651758.2781785545,
+      "rme": 0.2833035504592246
+    },
+    "Wasm_increment_by_map": {
+      "performance": 102478.74923186342,
+      "rme": 2.4354912832019164
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1650012.9544127851,
+      "rme": 0.36505318026398403
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 736
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47314583bd1d70c269d4"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 645215.4743810255,
+      "rme": 1.572626801023516
+    },
+    "Array_increment_by_for": {
+      "performance": 1553960.7945656474,
+      "rme": 4.310591424005658
+    },
+    "Wasm_increment_by_map": {
+      "performance": 102536.93945159453,
+      "rme": 1.30764932010508
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1582234.412450505,
+      "rme": 0.27953331509602497
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 768
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47414583bd1d70c269d6"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 812978.5082207369,
+      "rme": 2.8497889034594226
+    },
+    "Array_increment_by_for": {
+      "performance": 2018951.5186703315,
+      "rme": 1.2203442294714273
+    },
+    "Wasm_increment_by_map": {
+      "performance": 130265.38996886261,
+      "rme": 2.4692552743914087
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2044697.4026223056,
+      "rme": 0.17115144693115347
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 592
+  }
+},{
+  "_id": {
+    "$oid": "5fdf476c4583bd1d70c269da"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 534388.9967275594,
+      "rme": 3.005893679228995
+    },
+    "Array_increment_by_for": {
+      "performance": 1336928.3098142021,
+      "rme": 0.257562069888056
+    },
+    "Wasm_increment_by_map": {
+      "performance": 85453.55999323142,
+      "rme": 2.2695457677043676
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1336230.2486335854,
+      "rme": 0.12424464154441395
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 912
+  }
+},{
+  "_id": {
+    "$oid": "5fdf476c4583bd1d70c269d9"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1542990.668592405,
+      "rme": 2.459898860803113
+    },
+    "Array_increment_by_for": {
+      "performance": 3923057.6824467396,
+      "rme": 0.3393872527618775
+    },
+    "Wasm_increment_by_map": {
+      "performance": 244776.45146618344,
+      "rme": 3.9210027094776514
+    },
+    "Wasm_increment_by_for": {
+      "performance": 3877901.2536824555,
+      "rme": 0.4330934504652333
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 304
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47b24583bd1d70c269dd"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 3112297.3486651955,
+      "rme": 4.39989281184612
+    },
+    "Array_increment_by_for": {
+      "performance": 7660662.893678266,
+      "rme": 2.854968527273517
+    },
+    "Wasm_increment_by_map": {
+      "performance": 422008.7222283322,
+      "rme": 4.217533236730195
+    },
+    "Wasm_increment_by_for": {
+      "performance": 7737379.797605616,
+      "rme": 0.28766756834819796
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 144
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47b24583bd1d70c269de"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 529614.1276230955,
+      "rme": 1.5454895028492093
+    },
+    "Array_increment_by_for": {
+      "performance": 1293431.5906260812,
+      "rme": 0.755274129788977
+    },
+    "Wasm_increment_by_map": {
+      "performance": 84897.34777673881,
+      "rme": 0.3935815135591979
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1294331.2653967682,
+      "rme": 0.11009803481817941
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 944
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47e44583bd1d70c269e5"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 416961.2968275789,
+      "rme": 3.526996232946819
+    },
+    "Array_increment_by_for": {
+      "performance": 1007174.5284398074,
+      "rme": 2.0833385737740024
+    },
+    "Wasm_increment_by_map": {
+      "performance": 62819.749407232484,
+      "rme": 7.582328016652462
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1021971.5402969434,
+      "rme": 0.1308829221817297
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1200
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47e44583bd1d70c269e7"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 490646.5470152289,
+      "rme": 2.4720861513715255
+    },
+    "Array_increment_by_for": {
+      "performance": 1207977.9559022966,
+      "rme": 0.7371228461750718
+    },
+    "Wasm_increment_by_map": {
+      "performance": 79429.65938436765,
+      "rme": 1.251278759008031
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1212142.840062523,
+      "rme": 1.0079511205070633
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1008
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47e44583bd1d70c269e6"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 447483.6222386275,
+      "rme": 1.3907967537735342
+    },
+    "Array_increment_by_for": {
+      "performance": 1086947.1759677695,
+      "rme": 1.0553637073468771
+    },
+    "Wasm_increment_by_map": {
+      "performance": 71024.83848004957,
+      "rme": 0.9796976362373286
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1095008.1544521006,
+      "rme": 0.11563877283506686
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1120
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47e44583bd1d70c269e8"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 417818.0162006256,
+      "rme": 3.357782595371624
+    },
+    "Array_increment_by_for": {
+      "performance": 1032748.810268292,
+      "rme": 2.7486619918527926
+    },
+    "Wasm_increment_by_map": {
+      "performance": 62948.660289094834,
+      "rme": 6.315170878510326
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1046526.6264100828,
+      "rme": 0.36669257685366496
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1168
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47e44583bd1d70c269ea"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 456869.62061473256,
+      "rme": 5.128903691820171
+    },
+    "Array_increment_by_for": {
+      "performance": 1125875.6373722458,
+      "rme": 2.385540117501906
+    },
+    "Wasm_increment_by_map": {
+      "performance": 69142.97092266765,
+      "rme": 3.5635958416311677
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1134342.5007761724,
+      "rme": 0.3780485060769161
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1072
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47e44583bd1d70c269e9"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 494346.88039657776,
+      "rme": 2.7138447525661826
+    },
+    "Array_increment_by_for": {
+      "performance": 1229331.9541062948,
+      "rme": 0.25599715055064454
+    },
+    "Wasm_increment_by_map": {
+      "performance": 81177.50103817627,
+      "rme": 0.7673836075303069
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1224131.5673680832,
+      "rme": 1.102980691900444
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 992
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47ed4583bd1d70c269f0"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 2868021.9335509627,
+      "rme": 3.7473245707546425
+    },
+    "Array_increment_by_for": {
+      "performance": 7177836.229413565,
+      "rme": 0.5584583169340273
+    },
+    "Wasm_increment_by_map": {
+      "performance": 419098.48456245766,
+      "rme": 4.20347353057813
+    },
+    "Wasm_increment_by_for": {
+      "performance": 7042267.520056495,
+      "rme": 0.2225603037091853
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 160
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47ed4583bd1d70c269ef"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 406111.43276182044,
+      "rme": 3.571380976319158
+    },
+    "Array_increment_by_for": {
+      "performance": 965810.9633906833,
+      "rme": 0.8996502283780791
+    },
+    "Wasm_increment_by_map": {
+      "performance": 62169.278287023466,
+      "rme": 2.8206702565390933
+    },
+    "Wasm_increment_by_for": {
+      "performance": 971879.2226999204,
+      "rme": 0.13174192226605147
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1264
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47ed4583bd1d70c269f1"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 455121.6815974566,
+      "rme": 1.4498757287685577
+    },
+    "Array_increment_by_for": {
+      "performance": 1088076.7769539698,
+      "rme": 2.039596809582888
+    },
+    "Wasm_increment_by_map": {
+      "performance": 71742.58372038968,
+      "rme": 5.524820820601549
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1121632.1344723327,
+      "rme": 0.8120300162514832
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1088
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47ed4583bd1d70c269f2"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 472868.5754986353,
+      "rme": 1.3566093670145747
+    },
+    "Array_increment_by_for": {
+      "performance": 1146025.7779779383,
+      "rme": 2.0688143537996893
+    },
+    "Wasm_increment_by_map": {
+      "performance": 72380.3591772083,
+      "rme": 1.8714862900691627
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1156998.7000013324,
+      "rme": 0.5709876949058859
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1056
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47f64583bd1d70c269f5"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 370523.85825816245,
+      "rme": 2.7119598619808007
+    },
+    "Array_increment_by_for": {
+      "performance": 877305.6205755542,
+      "rme": 0.5999073200045797
+    },
+    "Wasm_increment_by_map": {
+      "performance": 57816.5626953933,
+      "rme": 0.41820354615478517
+    },
+    "Wasm_increment_by_for": {
+      "performance": 883132.3822912261,
+      "rme": 0.2173387044682723
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1392
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47f64583bd1d70c269f6"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1331761.3040666603,
+      "rme": 3.102453995059401
+    },
+    "Array_increment_by_for": {
+      "performance": 3282352.4870760953,
+      "rme": 4.903623040584341
+    },
+    "Wasm_increment_by_map": {
+      "performance": 199792.29379424648,
+      "rme": 1.6436931527346488
+    },
+    "Wasm_increment_by_for": {
+      "performance": 3363628.5559705296,
+      "rme": 0.6866188641965639
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 352
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47ff4583bd1d70c269fa"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 693663.9745275703,
+      "rme": 1.1694424902718479
+    },
+    "Array_increment_by_for": {
+      "performance": 1729370.7993992716,
+      "rme": 0.49732259053677724
+    },
+    "Wasm_increment_by_map": {
+      "performance": 107987.03246486916,
+      "rme": 3.2362386822672855
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1727450.2551262055,
+      "rme": 0.11685866243326762
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 704
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47ff4583bd1d70c269fc"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 350323.7270918545,
+      "rme": 6.159326788499853
+    },
+    "Array_increment_by_for": {
+      "performance": 850932.9449911088,
+      "rme": 0.3365602095008476
+    },
+    "Wasm_increment_by_map": {
+      "performance": 55403.185808257826,
+      "rme": 1.0336332417843879
+    },
+    "Wasm_increment_by_for": {
+      "performance": 851504.6135286915,
+      "rme": 0.1010292075365856
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1440
+  }
+},{
+  "_id": {
+    "$oid": "5fdf47ff4583bd1d70c269fb"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 471387.96090317983,
+      "rme": 5.1211074107716446
+    },
+    "Array_increment_by_for": {
+      "performance": 1165227.508779971,
+      "rme": 1.5566081927440023
+    },
+    "Wasm_increment_by_map": {
+      "performance": 75337.25424340784,
+      "rme": 1.734906716474811
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1166442.5572301515,
+      "rme": 0.7890316421611153
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1040
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48084583bd1d70c269fe"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 896123.9103267936,
+      "rme": 1.3824283536065487
+    },
+    "Array_increment_by_for": {
+      "performance": 2287702.5519269505,
+      "rme": 0.5379509118971498
+    },
+    "Wasm_increment_by_map": {
+      "performance": 149068.36936489693,
+      "rme": 1.4243401637797497
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2286130.520119258,
+      "rme": 0.10574630116986201
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 528
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48114583bd1d70c26a00"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 527219.6187956408,
+      "rme": 0.6307714895711536
+    },
+    "Array_increment_by_for": {
+      "performance": 1277342.776119014,
+      "rme": 0.21992529707593322
+    },
+    "Wasm_increment_by_map": {
+      "performance": 83661.32134446272,
+      "rme": 0.48196050138266977
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1274765.9394687247,
+      "rme": 0.22564430138035038
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 960
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48194583bd1d70c26a04"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 5451168.826153451,
+      "rme": 2.883585067492477
+    },
+    "Array_increment_by_for": {
+      "performance": 13437560.135689406,
+      "rme": 2.1573567186317466
+    },
+    "Wasm_increment_by_map": {
+      "performance": 747885.4621804935,
+      "rme": 2.7301029425399457
+    },
+    "Wasm_increment_by_for": {
+      "performance": 13594871.812278777,
+      "rme": 0.500279262779677
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 80
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48194583bd1d70c26a03"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 254156.88152463027,
+      "rme": 1.7599170654091376
+    },
+    "Array_increment_by_for": {
+      "performance": 620586.3941905037,
+      "rme": 0.15133151992832305
+    },
+    "Wasm_increment_by_map": {
+      "performance": 39331.25046200066,
+      "rme": 1.7530106888876615
+    },
+    "Wasm_increment_by_for": {
+      "performance": 625312.9301222952,
+      "rme": 0.7208211920922767
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1984
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48294583bd1d70c26a08"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 336265.8391978411,
+      "rme": 11.740402864056824
+    },
+    "Array_increment_by_for": {
+      "performance": 831563.3826249447,
+      "rme": 0.35243294500335115
+    },
+    "Wasm_increment_by_map": {
+      "performance": 54501.326978331825,
+      "rme": 1.3359384761800497
+    },
+    "Wasm_increment_by_for": {
+      "performance": 841107.9191613016,
+      "rme": 0.22057057496029253
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1472
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48294583bd1d70c26a09"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 296841.3226968122,
+      "rme": 8.617473763576857
+    },
+    "Array_increment_by_for": {
+      "performance": 739132.4208412912,
+      "rme": 0.4057052279619467
+    },
+    "Wasm_increment_by_map": {
+      "performance": 48250.22190995341,
+      "rme": 0.5427722089804652
+    },
+    "Wasm_increment_by_for": {
+      "performance": 743272.5367182222,
+      "rme": 0.3757378802792726
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1664
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48294583bd1d70c26a0a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 248071.7679269333,
+      "rme": 5.693638906827124
+    },
+    "Array_increment_by_for": {
+      "performance": 598844.8796022441,
+      "rme": 0.3190693750972563
+    },
+    "Wasm_increment_by_map": {
+      "performance": 39309.0651775394,
+      "rme": 1.0508437838452658
+    },
+    "Wasm_increment_by_for": {
+      "performance": 603066.0566401139,
+      "rme": 0.11830105972454152
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2048
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48314583bd1d70c26a0e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 332181.9166548013,
+      "rme": 2.6129739537150014
+    },
+    "Array_increment_by_for": {
+      "performance": 810009.5069978635,
+      "rme": 0.1104780353563129
+    },
+    "Wasm_increment_by_map": {
+      "performance": 52461.92995569474,
+      "rme": 1.2180272949046582
+    },
+    "Wasm_increment_by_for": {
+      "performance": 818677.7161404954,
+      "rme": 0.2968255776623436
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1520
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48314583bd1d70c26a0d"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 2041928.160801335,
+      "rme": 4.230309826457574
+    },
+    "Array_increment_by_for": {
+      "performance": 5156195.950241724,
+      "rme": 0.20876431080203098
+    },
+    "Wasm_increment_by_map": {
+      "performance": 317902.5767738832,
+      "rme": 3.1525868454625816
+    },
+    "Wasm_increment_by_for": {
+      "performance": 5214531.611924712,
+      "rme": 0.28018443305349594
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 224
+  }
+},{
+  "_id": {
+    "$oid": "5fdf483e4583bd1d70c26a11"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 4640499.178320351,
+      "rme": 3.9287278336499725
+    },
+    "Array_increment_by_for": {
+      "performance": 10944778.948533466,
+      "rme": 0.51664034219565
+    },
+    "Wasm_increment_by_map": {
+      "performance": 638160.1368924449,
+      "rme": 4.274059895116498
+    },
+    "Wasm_increment_by_for": {
+      "performance": 11165115.552074006,
+      "rme": 0.46547198443072907
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 96
+  }
+},{
+  "_id": {
+    "$oid": "5fdf483e4583bd1d70c26a12"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1012861.0257176304,
+      "rme": 2.3473865463641457
+    },
+    "Array_increment_by_for": {
+      "performance": 2584421.2522607828,
+      "rme": 0.24335619429864327
+    },
+    "Wasm_increment_by_map": {
+      "performance": 164053.75864060488,
+      "rme": 2.617872791269873
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2602173.875360924,
+      "rme": 0.40030825669469355
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 464
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48454583bd1d70c26a17"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 888716.7771248249,
+      "rme": 0.6070337380751881
+    },
+    "Array_increment_by_for": {
+      "performance": 2091284.1356747288,
+      "rme": 0.5797586323549913
+    },
+    "Wasm_increment_by_map": {
+      "performance": 135125.49093178593,
+      "rme": 1.9308343165566424
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2132301.676241276,
+      "rme": 0.591796275762557
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 576
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48454583bd1d70c26a16"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 425493.8382271788,
+      "rme": 0.5845735723381875
+    },
+    "Array_increment_by_for": {
+      "performance": 1036648.6208114283,
+      "rme": 0.3003931258585851
+    },
+    "Wasm_increment_by_map": {
+      "performance": 67772.55164365044,
+      "rme": 0.37777023621901556
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1041100.6785830678,
+      "rme": 0.2767302397266613
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1184
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48454583bd1d70c26a18"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 359548.48934212147,
+      "rme": 2.5292058847868244
+    },
+    "Array_increment_by_for": {
+      "performance": 863239.8047046938,
+      "rme": 0.2697709051262948
+    },
+    "Wasm_increment_by_map": {
+      "performance": 55386.4862550887,
+      "rme": 1.9575845549089688
+    },
+    "Wasm_increment_by_for": {
+      "performance": 864535.66377373,
+      "rme": 0.11227718213942545
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1424
+  }
+},{
+  "_id": {
+    "$oid": "5fdf484d4583bd1d70c26a1a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 254801.82915283312,
+      "rme": 1.4099837122221992
+    },
+    "Array_increment_by_for": {
+      "performance": 609854.2929314325,
+      "rme": 0.1537249942115339
+    },
+    "Wasm_increment_by_map": {
+      "performance": 39229.22461089851,
+      "rme": 2.2212667333995832
+    },
+    "Wasm_increment_by_for": {
+      "performance": 619607.5151801314,
+      "rme": 0.3149772299650241
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2016
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48554583bd1d70c26a1e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1513542.344739296,
+      "rme": 0.9017331040274839
+    },
+    "Array_increment_by_for": {
+      "performance": 3520973.4294701195,
+      "rme": 0.5892165788652535
+    },
+    "Wasm_increment_by_map": {
+      "performance": 221975.507999792,
+      "rme": 1.5835701780925031
+    },
+    "Wasm_increment_by_for": {
+      "performance": 3560923.7043465427,
+      "rme": 0.6096920213130271
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 336
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48554583bd1d70c26a20"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1186512.1110044564,
+      "rme": 0.8702727742553552
+    },
+    "Array_increment_by_for": {
+      "performance": 2768535.12573531,
+      "rme": 0.795651365790406
+    },
+    "Wasm_increment_by_map": {
+      "performance": 179685.24009828304,
+      "rme": 1.0161288513980502
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2788159.5274659763,
+      "rme": 0.26636643968906787
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 432
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48554583bd1d70c26a1f"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1062429.4995953916,
+      "rme": 2.3548862334673264
+    },
+    "Array_increment_by_for": {
+      "performance": 2680149.353173002,
+      "rme": 0.11730707194365167
+    },
+    "Wasm_increment_by_map": {
+      "performance": 174872.33938034612,
+      "rme": 0.9825112100485796
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2689300.952174329,
+      "rme": 0.6072520847059356
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 448
+  }
+},{
+  "_id": {
+    "$oid": "5fdf485c4583bd1d70c26a22"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 679918.1630792735,
+      "rme": 2.078865052480701
+    },
+    "Array_increment_by_for": {
+      "performance": 1670986.254054256,
+      "rme": 2.2791300972862123
+    },
+    "Wasm_increment_by_map": {
+      "performance": 110154.46827616975,
+      "rme": 0.35786927075469716
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1713885.2446205255,
+      "rme": 0.34080061545889623
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 720
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48634583bd1d70c26a27"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1068383.0467378914,
+      "rme": 0.8906498360216887
+    },
+    "Array_increment_by_for": {
+      "performance": 2504764.356130794,
+      "rme": 0.24816378718830284
+    },
+    "Wasm_increment_by_map": {
+      "performance": 157060.98709676953,
+      "rme": 3.868432842436198
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2525252.6408369006,
+      "rme": 0.20782712382403026
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 480
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48634583bd1d70c26a29"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 2251614.1256896798,
+      "rme": 3.4281833054286976
+    },
+    "Array_increment_by_for": {
+      "performance": 5619541.568542686,
+      "rme": 0.446892222874846
+    },
+    "Wasm_increment_by_map": {
+      "performance": 349607.82603795937,
+      "rme": 0.4674150576190665
+    },
+    "Wasm_increment_by_for": {
+      "performance": 5606426.461742593,
+      "rme": 0.4957917670053216
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 208
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48634583bd1d70c26a2a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 559579.4908885413,
+      "rme": 0.7684519724514856
+    },
+    "Array_increment_by_for": {
+      "performance": 1354710.8456659864,
+      "rme": 0.6875427587304237
+    },
+    "Wasm_increment_by_map": {
+      "performance": 88458.19405971993,
+      "rme": 0.5502219720361858
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1374291.1577416144,
+      "rme": 0.23883844684505534
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 896
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48634583bd1d70c26a28"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 483156.1633067157,
+      "rme": 3.0273779184385115
+    },
+    "Array_increment_by_for": {
+      "performance": 1188650.2259504192,
+      "rme": 0.9472175693717055
+    },
+    "Wasm_increment_by_map": {
+      "performance": 77789.74604184492,
+      "rme": 1.156543070383206
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1209079.5971634707,
+      "rme": 0.5388426692380012
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1024
+  }
+},{
+  "_id": {
+    "$oid": "5fdf486e4583bd1d70c26a2c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 367384.5118754081,
+      "rme": 0.3581627506428876
+    },
+    "Array_increment_by_for": {
+      "performance": 872329.1966964856,
+      "rme": 0.2638563323756234
+    },
+    "Wasm_increment_by_map": {
+      "performance": 55568.38014089699,
+      "rme": 2.512123121413452
+    },
+    "Wasm_increment_by_for": {
+      "performance": 875587.8128813598,
+      "rme": 0.503439913767884
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1408
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48784583bd1d70c26a2f"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 325609.5761706775,
+      "rme": 3.4602936756555183
+    },
+    "Array_increment_by_for": {
+      "performance": 778977.9478245842,
+      "rme": 0.8109333696190605
+    },
+    "Wasm_increment_by_map": {
+      "performance": 50597.85285135676,
+      "rme": 0.5833881017021045
+    },
+    "Wasm_increment_by_for": {
+      "performance": 790194.0003449763,
+      "rme": 0.3919763771151131
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1568
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48784583bd1d70c26a30"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 334648.2634624894,
+      "rme": 1.0269231808500539
+    },
+    "Array_increment_by_for": {
+      "performance": 793120.2446154192,
+      "rme": 0.39818665097033
+    },
+    "Wasm_increment_by_map": {
+      "performance": 52038.592969362704,
+      "rme": 0.19132497347901994
+    },
+    "Wasm_increment_by_for": {
+      "performance": 799756.5500301593,
+      "rme": 0.23888600670751198
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1552
+  }
+},{
+  "_id": {
+    "$oid": "5fdf487e4583bd1d70c26a34"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 384686.9697436275,
+      "rme": 3.491897903400272
+    },
+    "Array_increment_by_for": {
+      "performance": 914265.4510198352,
+      "rme": 0.1432830727244659
+    },
+    "Wasm_increment_by_map": {
+      "performance": 59814.17439054754,
+      "rme": 0.7795674618108076
+    },
+    "Wasm_increment_by_for": {
+      "performance": 919632.6069958081,
+      "rme": 0.22637783695830827
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1344
+  }
+},{
+  "_id": {
+    "$oid": "5fdf487e4583bd1d70c26a33"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 3907350.410203661,
+      "rme": 2.402371460098734
+    },
+    "Array_increment_by_for": {
+      "performance": 9637314.607486384,
+      "rme": 0.3950051490299242
+    },
+    "Wasm_increment_by_map": {
+      "performance": 581322.4368663119,
+      "rme": 3.2465404721019366
+    },
+    "Wasm_increment_by_for": {
+      "performance": 9826348.215033721,
+      "rme": 0.3501537121658893
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 112
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48854583bd1d70c26a37"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1653253.397603594,
+      "rme": 3.397596156829049
+    },
+    "Array_increment_by_for": {
+      "performance": 4084087.954721884,
+      "rme": 0.17178768317658194
+    },
+    "Wasm_increment_by_map": {
+      "performance": 260684.54237803235,
+      "rme": 1.7934452941297085
+    },
+    "Wasm_increment_by_for": {
+      "performance": 4135418.0449556247,
+      "rme": 0.5003492643185188
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 288
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48854583bd1d70c26a38"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 253544.1948886559,
+      "rme": 3.230251258458184
+    },
+    "Array_increment_by_for": {
+      "performance": 614235.5396827279,
+      "rme": 0.33146925285747547
+    },
+    "Wasm_increment_by_map": {
+      "performance": 39074.809951044605,
+      "rme": 3.732813141377642
+    },
+    "Wasm_increment_by_for": {
+      "performance": 625089.1977398999,
+      "rme": 0.19564867881900547
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2000
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48984583bd1d70c26a3a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 429337.6847101235,
+      "rme": 1.706691341508898
+    },
+    "Array_increment_by_for": {
+      "performance": 1111949.8991401573,
+      "rme": 0.1601763913439419
+    },
+    "Wasm_increment_by_map": {
+      "performance": 72007.76717244272,
+      "rme": 1.4570952549664828
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1116104.6092618625,
+      "rme": 0.23022008353383797
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1104
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48a14583bd1d70c26a3d"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 375490.4760385556,
+      "rme": 0.4461437622459964
+    },
+    "Array_increment_by_for": {
+      "performance": 890626.26440397,
+      "rme": 0.2768622438204857
+    },
+    "Wasm_increment_by_map": {
+      "performance": 57623.90414536104,
+      "rme": 1.6272673572011158
+    },
+    "Wasm_increment_by_for": {
+      "performance": 902616.5602797085,
+      "rme": 0.2668355617053019
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1376
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48a14583bd1d70c26a3e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 2015568.5239764669,
+      "rme": 2.988144856171238
+    },
+    "Array_increment_by_for": {
+      "performance": 4837665.875970096,
+      "rme": 0.25238462898081726
+    },
+    "Wasm_increment_by_map": {
+      "performance": 307598.41700632125,
+      "rme": 2.701536379856644
+    },
+    "Wasm_increment_by_for": {
+      "performance": 4915825.049546957,
+      "rme": 0.3946398579367949
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 240
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48aa4583bd1d70c26a40"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 387147.24374531413,
+      "rme": 1.4289409189223228
+    },
+    "Array_increment_by_for": {
+      "performance": 924951.6466874804,
+      "rme": 0.20674702327706565
+    },
+    "Wasm_increment_by_map": {
+      "performance": 60171.479084312654,
+      "rme": 1.2989475183064683
+    },
+    "Wasm_increment_by_for": {
+      "performance": 934442.1424138874,
+      "rme": 0.3014614082157037
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1328
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48b84583bd1d70c26a43"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 415478.1850259076,
+      "rme": 0.5574254472320365
+    },
+    "Array_increment_by_for": {
+      "performance": 1007750.749665802,
+      "rme": 0.18825334896427945
+    },
+    "Wasm_increment_by_map": {
+      "performance": 66634.87676715181,
+      "rme": 0.6192370442953302
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1013007.3653448172,
+      "rme": 0.4323792687367963
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1216
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48b84583bd1d70c26a44"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 944939.2794002465,
+      "rme": 0.683924784005783
+    },
+    "Array_increment_by_for": {
+      "performance": 2216200.17468881,
+      "rme": 0.17706696588797052
+    },
+    "Wasm_increment_by_map": {
+      "performance": 144587.22589449934,
+      "rme": 0.8576798649003928
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2245113.934006882,
+      "rme": 0.16107951632372908
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 544
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48be4583bd1d70c26a49"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 823924.5544129048,
+      "rme": 0.6991883636892793
+    },
+    "Array_increment_by_for": {
+      "performance": 1936330.821747389,
+      "rme": 0.2632600102405061
+    },
+    "Wasm_increment_by_map": {
+      "performance": 125315.26607843999,
+      "rme": 1.7952688419861103
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1969973.8663699904,
+      "rme": 0.225349840265133
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 624
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48be4583bd1d70c26a4a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 272019.8481377082,
+      "rme": 1.4564926603712576
+    },
+    "Array_increment_by_for": {
+      "performance": 646131.3680593156,
+      "rme": 0.2816142229994076
+    },
+    "Wasm_increment_by_map": {
+      "performance": 41617.399469432625,
+      "rme": 1.0859266357662711
+    },
+    "Wasm_increment_by_for": {
+      "performance": 653100.1622938223,
+      "rme": 0.1767429458762712
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1904
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48be4583bd1d70c26a48"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 844869.8802343794,
+      "rme": 1.2552404504042267
+    },
+    "Array_increment_by_for": {
+      "performance": 2151612.13514052,
+      "rme": 0.25969676013791854
+    },
+    "Wasm_increment_by_map": {
+      "performance": 140987.55345015286,
+      "rme": 0.2756866108856095
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2184819.922781431,
+      "rme": 0.17840421010790944
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 560
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48c94583bd1d70c26a4c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 439507.9276270742,
+      "rme": 0.37323644045765003
+    },
+    "Array_increment_by_for": {
+      "performance": 1064772.6252666516,
+      "rme": 0.2628435269165169
+    },
+    "Wasm_increment_by_map": {
+      "performance": 69858.03687083717,
+      "rme": 0.4731211318239125
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1073605.3530368567,
+      "rme": 0.1557853790729844
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1152
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48ce4583bd1d70c26a50"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 2410608.667999898,
+      "rme": 3.275362522696513
+    },
+    "Array_increment_by_for": {
+      "performance": 5964702.409313545,
+      "rme": 0.21255213558763575
+    },
+    "Wasm_increment_by_map": {
+      "performance": 382493.98305177863,
+      "rme": 0.6710922591263537
+    },
+    "Wasm_increment_by_for": {
+      "performance": 5997937.828041783,
+      "rme": 0.5813507033260443
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 192
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48ce4583bd1d70c26a4f"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 8988873.026344007,
+      "rme": 1.7186781242452382
+    },
+    "Array_increment_by_for": {
+      "performance": 21155823.38953841,
+      "rme": 1.1386435318722223
+    },
+    "Wasm_increment_by_map": {
+      "performance": 1087050.2767699903,
+      "rme": 0.65762683395442
+    },
+    "Wasm_increment_by_for": {
+      "performance": 21240521.51824455,
+      "rme": 1.4545532726079617
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 48
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48d54583bd1d70c26a53"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 544503.7160035761,
+      "rme": 0.9865553782132676
+    },
+    "Array_increment_by_for": {
+      "performance": 1314889.4483856119,
+      "rme": 0.11247458560175516
+    },
+    "Wasm_increment_by_map": {
+      "performance": 87249.28498386446,
+      "rme": 0.34964361184469867
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1333814.0730091012,
+      "rme": 0.17534205500183156
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 928
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48d54583bd1d70c26a54"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1774168.0524051522,
+      "rme": 2.889413341137589
+    },
+    "Array_increment_by_for": {
+      "performance": 4300403.753630838,
+      "rme": 0.25809144288495456
+    },
+    "Wasm_increment_by_map": {
+      "performance": 271338.7233455038,
+      "rme": 1.441227974180799
+    },
+    "Wasm_increment_by_for": {
+      "performance": 4346025.292682305,
+      "rme": 0.6097270629120175
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 272
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48df4583bd1d70c26a56"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 596890.4060698322,
+      "rme": 1.5304551067522982
+    },
+    "Array_increment_by_for": {
+      "performance": 1485893.3221554335,
+      "rme": 0.5935058789590789
+    },
+    "Wasm_increment_by_map": {
+      "performance": 96890.91774795194,
+      "rme": 0.7166192979679954
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1506851.151276911,
+      "rme": 0.17978528442565672
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 816
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48e64583bd1d70c26a58"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 324589.5919391647,
+      "rme": 0.9560381536153876
+    },
+    "Array_increment_by_for": {
+      "performance": 770429.2243176228,
+      "rme": 0.1497841192041095
+    },
+    "Wasm_increment_by_map": {
+      "performance": 51131.54931496379,
+      "rme": 0.3239195311989327
+    },
+    "Wasm_increment_by_for": {
+      "performance": 773912.6043911974,
+      "rme": 0.25812344381348623
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1600
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48f44583bd1d70c26a5a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 290121.0064783865,
+      "rme": 0.4850622121937578
+    },
+    "Array_increment_by_for": {
+      "performance": 693975.5857949792,
+      "rme": 0.2349359793168386
+    },
+    "Wasm_increment_by_map": {
+      "performance": 45891.69970791383,
+      "rme": 0.3962503252731114
+    },
+    "Wasm_increment_by_for": {
+      "performance": 701291.2021477093,
+      "rme": 0.21152557648806428
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1776
+  }
+},{
+  "_id": {
+    "$oid": "5fdf48fb4583bd1d70c26a5c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 650840.1848521859,
+      "rme": 2.642994862470515
+    },
+    "Array_increment_by_for": {
+      "performance": 1615410.8793527998,
+      "rme": 0.11141032935925309
+    },
+    "Wasm_increment_by_map": {
+      "performance": 107810.48280967158,
+      "rme": 0.26022973743543615
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1636831.9823156262,
+      "rme": 0.23300586601272738
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 752
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49154583bd1d70c26a5f"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 285185.53007784474,
+      "rme": 3.7423601693534163
+    },
+    "Array_increment_by_for": {
+      "performance": 679837.0197806023,
+      "rme": 0.23596070772036684
+    },
+    "Wasm_increment_by_map": {
+      "performance": 43778.86431197624,
+      "rme": 2.4117868553964548
+    },
+    "Wasm_increment_by_for": {
+      "performance": 688036.4029105896,
+      "rme": 0.14654716384178454
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1808
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49154583bd1d70c26a60"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 251730.3993343511,
+      "rme": 2.444524201869692
+    },
+    "Array_increment_by_for": {
+      "performance": 604885.1018373051,
+      "rme": 0.1586546304643161
+    },
+    "Wasm_increment_by_map": {
+      "performance": 39189.38549318791,
+      "rme": 2.346718603604077
+    },
+    "Wasm_increment_by_for": {
+      "performance": 612202.4824159687,
+      "rme": 0.24998226818563873
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 2032
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49194583bd1d70c26a64"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 402670.490949385,
+      "rme": 3.90223996908649
+    },
+    "Array_increment_by_for": {
+      "performance": 958162.8225816259,
+      "rme": 0.13748860881966632
+    },
+    "Wasm_increment_by_map": {
+      "performance": 62541.94121204505,
+      "rme": 0.5488690726276566
+    },
+    "Wasm_increment_by_for": {
+      "performance": 966652.7340041766,
+      "rme": 0.12489074326528507
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1280
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49194583bd1d70c26a66"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 282747.383937766,
+      "rme": 3.590659354555171
+    },
+    "Array_increment_by_for": {
+      "performance": 673066.2472133334,
+      "rme": 0.29773356925450645
+    },
+    "Wasm_increment_by_map": {
+      "performance": 43581.2501465985,
+      "rme": 2.2175083998755194
+    },
+    "Wasm_increment_by_for": {
+      "performance": 683256.3744168037,
+      "rme": 0.1327488615208534
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1824
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49194583bd1d70c26a65"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 271366.4270217659,
+      "rme": 3.930553769348631
+    },
+    "Array_increment_by_for": {
+      "performance": 663008.51958447,
+      "rme": 0.12229454126085179
+    },
+    "Wasm_increment_by_map": {
+      "performance": 43008.99621845537,
+      "rme": 1.1519860386328105
+    },
+    "Wasm_increment_by_for": {
+      "performance": 670681.4685977326,
+      "rme": 0.38355329246544356
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1856
+  }
+},{
+  "_id": {
+    "$oid": "5fdf491d4583bd1d70c26a6a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 295658.51096448774,
+      "rme": 2.9846428352523926
+    },
+    "Array_increment_by_for": {
+      "performance": 705655.951674771,
+      "rme": 0.1388837065607034
+    },
+    "Wasm_increment_by_map": {
+      "performance": 46115.70384500981,
+      "rme": 0.8237912264247301
+    },
+    "Wasm_increment_by_for": {
+      "performance": 711766.3637657074,
+      "rme": 0.120715400493467
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1744
+  }
+},{
+  "_id": {
+    "$oid": "5fdf491d4583bd1d70c26a69"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1006615.7201932837,
+      "rme": 0.8781611323117379
+    },
+    "Array_increment_by_for": {
+      "performance": 2343699.128775516,
+      "rme": 0.5179478267243192
+    },
+    "Wasm_increment_by_map": {
+      "performance": 148164.36579796262,
+      "rme": 3.9785131328644736
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2376449.4269904657,
+      "rme": 0.1676237431914043
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 512
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49204583bd1d70c26a6d"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1397137.3899815665,
+      "rme": 0.8981284725928133
+    },
+    "Array_increment_by_for": {
+      "performance": 3237496.7112036254,
+      "rme": 0.2365947801398672
+    },
+    "Wasm_increment_by_map": {
+      "performance": 209852.59058635743,
+      "rme": 1.040344461896369
+    },
+    "Wasm_increment_by_for": {
+      "performance": 3265973.2300013434,
+      "rme": 0.24137313381312223
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 368
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49204583bd1d70c26a6e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 256793.5695482779,
+      "rme": 5.56772016313445
+    },
+    "Array_increment_by_for": {
+      "performance": 631350.4225978005,
+      "rme": 0.14300745723729918
+    },
+    "Wasm_increment_by_map": {
+      "performance": 41192.646224874894,
+      "rme": 0.4724294748262461
+    },
+    "Wasm_increment_by_for": {
+      "performance": 636946.2378618222,
+      "rme": 0.2519403490538178
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1952
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49234583bd1d70c26a71"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 1284732.1440111103,
+      "rme": 0.893497601031293
+    },
+    "Array_increment_by_for": {
+      "performance": 2978392.3192022233,
+      "rme": 0.3595655013403734
+    },
+    "Wasm_increment_by_map": {
+      "performance": 190830.30877407992,
+      "rme": 0.7426263745462192
+    },
+    "Wasm_increment_by_for": {
+      "performance": 3012541.7321589324,
+      "rme": 0.27581958846834487
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 400
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49234583bd1d70c26a72"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 938079.7906008436,
+      "rme": 5.831348307410079
+    },
+    "Array_increment_by_for": {
+      "performance": 2417278.4038708685,
+      "rme": 0.3436870714907401
+    },
+    "Wasm_increment_by_map": {
+      "performance": 153791.88802600544,
+      "rme": 2.8634225855616804
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2454195.294391986,
+      "rme": 0.14295959572466913
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 496
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49264583bd1d70c26a76"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 258070.03977892856,
+      "rme": 2.167533580448274
+    },
+    "Array_increment_by_for": {
+      "performance": 624960.4128120787,
+      "rme": 0.1670479135781945
+    },
+    "Wasm_increment_by_map": {
+      "performance": 40703.604076020056,
+      "rme": 1.4800380746412547
+    },
+    "Wasm_increment_by_for": {
+      "performance": 633256.0074094358,
+      "rme": 0.13456938737333352
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1968
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49264583bd1d70c26a77"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 301468.5379316014,
+      "rme": 5.849974611374684
+    },
+    "Array_increment_by_for": {
+      "performance": 734023.345137813,
+      "rme": 0.10485941462711482
+    },
+    "Wasm_increment_by_map": {
+      "performance": 46181.53402826553,
+      "rme": 2.1624105243368663
+    },
+    "Wasm_increment_by_for": {
+      "performance": 739545.7587686327,
+      "rme": 0.10360009864690463
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1680
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49264583bd1d70c26a78"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 261031.0395942213,
+      "rme": 4.666225113426762
+    },
+    "Array_increment_by_for": {
+      "performance": 640770.3106292229,
+      "rme": 0.1586679713711144
+    },
+    "Wasm_increment_by_map": {
+      "performance": 41371.93478863839,
+      "rme": 1.3745010649508307
+    },
+    "Wasm_increment_by_for": {
+      "performance": 645616.6075800108,
+      "rme": 0.10582026005039605
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1920
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49294583bd1d70c26a7a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 306801.7056919667,
+      "rme": 1.7136433594965208
+    },
+    "Array_increment_by_for": {
+      "performance": 774223.5364936223,
+      "rme": 0.44402965908548986
+    },
+    "Wasm_increment_by_map": {
+      "performance": 49743.16113115406,
+      "rme": 1.3553339717843382
+    },
+    "Wasm_increment_by_for": {
+      "performance": 781895.8209991803,
+      "rme": 0.12346093105242181
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1584
+  }
+},{
+  "_id": {
+    "$oid": "5fdf492b4583bd1d70c26a7d"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 320884.0986936577,
+      "rme": 1.3123865512961315
+    },
+    "Array_increment_by_for": {
+      "performance": 760734.6593295229,
+      "rme": 0.21714383301813528
+    },
+    "Wasm_increment_by_map": {
+      "performance": 49659.245155201796,
+      "rme": 1.395145360016367
+    },
+    "Wasm_increment_by_for": {
+      "performance": 767945.8173321274,
+      "rme": 0.20971642696145043
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1616
+  }
+},{
+  "_id": {
+    "$oid": "5fdf492b4583bd1d70c26a7e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 280842.2873301615,
+      "rme": 12.808576131128074
+    },
+    "Array_increment_by_for": {
+      "performance": 698432.9210093118,
+      "rme": 0.14447966348309835
+    },
+    "Wasm_increment_by_map": {
+      "performance": 45224.36091263576,
+      "rme": 1.1534201001738467
+    },
+    "Wasm_increment_by_for": {
+      "performance": 705840.957480986,
+      "rme": 0.122187069619859
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1760
+  }
+},{
+  "_id": {
+    "$oid": "5fdf492d4583bd1d70c26a82"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 629676.0743622074,
+      "rme": 1.6099114391530576
+    },
+    "Array_increment_by_for": {
+      "performance": 1549024.9300099157,
+      "rme": 0.41284588198876004
+    },
+    "Wasm_increment_by_map": {
+      "performance": 100655.05553368646,
+      "rme": 1.0828275475612719
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1570229.427279632,
+      "rme": 0.14665580842694506
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 784
+  }
+},{
+  "_id": {
+    "$oid": "5fdf492d4583bd1d70c26a84"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 315907.40442783426,
+      "rme": 0.47322982346894416
+    },
+    "Array_increment_by_for": {
+      "performance": 758935.4260512957,
+      "rme": 0.24490914257810326
+    },
+    "Wasm_increment_by_map": {
+      "performance": 49888.46855013405,
+      "rme": 0.29407762479492866
+    },
+    "Wasm_increment_by_for": {
+      "performance": 759599.9331042187,
+      "rme": 0.26154206243494393
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1632
+  }
+},{
+  "_id": {
+    "$oid": "5fdf492d4583bd1d70c26a83"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 3563867.4373598737,
+      "rme": 2.964420115415184
+    },
+    "Array_increment_by_for": {
+      "performance": 8566335.77550469,
+      "rme": 0.3420024178525071
+    },
+    "Wasm_increment_by_map": {
+      "performance": 496075.8842426346,
+      "rme": 2.141696943205168
+    },
+    "Wasm_increment_by_for": {
+      "performance": 8672041.82218634,
+      "rme": 0.2879848853929537
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 128
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49314583bd1d70c26a88"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 21813870.8439976,
+      "rme": 0.9532100847719047
+    },
+    "Array_increment_by_for": {
+      "performance": 46875051.551059045,
+      "rme": 2.893891523969468
+    },
+    "Wasm_increment_by_map": {
+      "performance": 3995623.089615967,
+      "rme": 0.697180620817668
+    },
+    "Wasm_increment_by_for": {
+      "performance": 47096255.602327906,
+      "rme": 1.1110448860420876
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 16
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49314583bd1d70c26a87"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 345526.53582610964,
+      "rme": 0.76592316526695
+    },
+    "Array_increment_by_for": {
+      "performance": 830086.3046971736,
+      "rme": 0.34173462466432275
+    },
+    "Wasm_increment_by_map": {
+      "performance": 53631.09725307331,
+      "rme": 0.511938840706745
+    },
+    "Wasm_increment_by_for": {
+      "performance": 830644.4366519541,
+      "rme": 0.5051606629677731
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1488
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49334583bd1d70c26a8a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 845481.6633188004,
+      "rme": 0.6076482164215733
+    },
+    "Array_increment_by_for": {
+      "performance": 1984789.343113968,
+      "rme": 0.3239882803704122
+    },
+    "Wasm_increment_by_map": {
+      "performance": 127838.49553692082,
+      "rme": 1.3826090045712272
+    },
+    "Wasm_increment_by_for": {
+      "performance": 2013918.7374840965,
+      "rme": 0.17503538765856227
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 608
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49344583bd1d70c26a8c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 733523.4291541053,
+      "rme": 1.3070094264209222
+    },
+    "Array_increment_by_for": {
+      "performance": 1784735.0013387837,
+      "rme": 1.4432488153362768
+    },
+    "Wasm_increment_by_map": {
+      "performance": 118377.35402600354,
+      "rme": 0.28167673955486533
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1813105.3443584577,
+      "rme": 0.17093773685553332
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 672
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49374583bd1d70c26a8e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 392916.1077929486,
+      "rme": 0.46245141300645065
+    },
+    "Array_increment_by_for": {
+      "performance": 937849.1269913724,
+      "rme": 0.156155799908443
+    },
+    "Wasm_increment_by_map": {
+      "performance": 61360.206156644315,
+      "rme": 1.5969763496482547
+    },
+    "Wasm_increment_by_for": {
+      "performance": 941476.3549269438,
+      "rme": 0.11075735141630383
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1312
+  }
+},{
+  "_id": {
+    "$oid": "5fdf493c4583bd1d70c26a90"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 2642406.1711623366,
+      "rme": 3.361978397125461
+    },
+    "Array_increment_by_for": {
+      "performance": 6460777.296608647,
+      "rme": 0.2521056708686032
+    },
+    "Wasm_increment_by_map": {
+      "performance": 400165.29020708206,
+      "rme": 0.3975264325138411
+    },
+    "Wasm_increment_by_for": {
+      "performance": 6520876.962371862,
+      "rme": 0.4447488546980715
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 176
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49444583bd1d70c26a92"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 404265.6366311533,
+      "rme": 0.9461065232487795
+    },
+    "Array_increment_by_for": {
+      "performance": 985512.8671460615,
+      "rme": 0.15720476839255748
+    },
+    "Wasm_increment_by_map": {
+      "performance": 64009.444859332136,
+      "rme": 0.42912097345722405
+    },
+    "Wasm_increment_by_for": {
+      "performance": 994156.7409890648,
+      "rme": 0.21166201742915552
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1248
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49454583bd1d70c26a94"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 521577.74093309324,
+      "rme": 0.9643249887387734
+    },
+    "Array_increment_by_for": {
+      "performance": 1249382.7809416687,
+      "rme": 0.7817237380996578
+    },
+    "Wasm_increment_by_map": {
+      "performance": 82283.76777046555,
+      "rme": 0.40856726350945044
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1266322.8115853786,
+      "rme": 0.23572488390304985
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 976
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49484583bd1d70c26a96"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 409927.06795074174,
+      "rme": 0.7909089391609916
+    },
+    "Array_increment_by_for": {
+      "performance": 998268.9672835526,
+      "rme": 0.17669041870683574
+    },
+    "Wasm_increment_by_map": {
+      "performance": 65225.42986640074,
+      "rme": 0.4540990448666041
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1007380.9799003209,
+      "rme": 0.20347232989928565
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1232
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49494583bd1d70c26a98"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 280220.5190582439,
+      "rme": 0.36904531865418927
+    },
+    "Array_increment_by_for": {
+      "performance": 673339.2418491286,
+      "rme": 0.24477100656324016
+    },
+    "Wasm_increment_by_map": {
+      "performance": 44295.380169110686,
+      "rme": 0.367365203383076
+    },
+    "Wasm_increment_by_for": {
+      "performance": 678196.4004594365,
+      "rme": 0.13451029301425982
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1840
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49564583bd1d70c26a9a"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 273866.2929844663,
+      "rme": 0.38225653308827146
+    },
+    "Array_increment_by_for": {
+      "performance": 651282.780477169,
+      "rme": 0.24216409592797924
+    },
+    "Wasm_increment_by_map": {
+      "performance": 42372.058607762265,
+      "rme": 0.44823151648285575
+    },
+    "Wasm_increment_by_for": {
+      "performance": 660385.8508501713,
+      "rme": 0.16597801421769706
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1888
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49574583bd1d70c26a9c"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 443937.8238154581,
+      "rme": 0.9430771038635001
+    },
+    "Array_increment_by_for": {
+      "performance": 1079430.8243838698,
+      "rme": 0.1577508996713364
+    },
+    "Wasm_increment_by_map": {
+      "performance": 70044.93419427193,
+      "rme": 0.5477417737611722
+    },
+    "Wasm_increment_by_for": {
+      "performance": 1091547.87086663,
+      "rme": 0.16334643424240114
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1136
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49584583bd1d70c26a9e"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 298428.09235871193,
+      "rme": 0.4737101818307444
+    },
+    "Array_increment_by_for": {
+      "performance": 717519.437775845,
+      "rme": 0.16059014708706268
+    },
+    "Wasm_increment_by_map": {
+      "performance": 44948.77664450104,
+      "rme": 1.0451908721908496
+    },
+    "Wasm_increment_by_for": {
+      "performance": 717267.5960792485,
+      "rme": 0.21832193894330468
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1728
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49594583bd1d70c26aa0"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 301338.0779696009,
+      "rme": 1.3669026998811962
+    },
+    "Array_increment_by_for": {
+      "performance": 721398.0720091576,
+      "rme": 0.10495718415374111
+    },
+    "Wasm_increment_by_map": {
+      "performance": 46841.365761258654,
+      "rme": 0.6601018709615512
+    },
+    "Wasm_increment_by_for": {
+      "performance": 726507.0279174757,
+      "rme": 0.12330604932632885
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1712
+  }
+},{
+  "_id": {
+    "$oid": "5fdf495d4583bd1d70c26aa2"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 337436.3011880779,
+      "rme": 0.49226249037003345
+    },
+    "Array_increment_by_for": {
+      "performance": 801645.3941236126,
+      "rme": 0.3217348179675337
+    },
+    "Wasm_increment_by_map": {
+      "performance": 52220.18762711095,
+      "rme": 0.49270908921847006
+    },
+    "Wasm_increment_by_for": {
+      "performance": 810425.6646801189,
+      "rme": 0.3480439900362704
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1536
+  }
+},{
+  "_id": {
+    "$oid": "5fdf495e4583bd1d70c26aa4"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 380150.63729882333,
+      "rme": 1.0466814545622072
+    },
+    "Array_increment_by_for": {
+      "performance": 904411.9623381546,
+      "rme": 0.10930031962018755
+    },
+    "Wasm_increment_by_map": {
+      "performance": 59636.51791132605,
+      "rme": 0.19753370974681483
+    },
+    "Wasm_increment_by_for": {
+      "performance": 913166.5568943003,
+      "rme": 0.1663050489332238
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1360
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49614583bd1d70c26aa6"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 304130.2049304804,
+      "rme": 0.3983725031383675
+    },
+    "Array_increment_by_for": {
+      "performance": 728371.4722354119,
+      "rme": 0.23844417782503177
+    },
+    "Wasm_increment_by_map": {
+      "performance": 47774.13627934337,
+      "rme": 0.3465605920013332
+    },
+    "Wasm_increment_by_for": {
+      "performance": 734294.0050102763,
+      "rme": 0.1255591796106387
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1696
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49624583bd1d70c26aa8"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 265861.01053836755,
+      "rme": 0.37210771996741077
+    },
+    "Array_increment_by_for": {
+      "performance": 640774.5801999249,
+      "rme": 0.12579976559877462
+    },
+    "Wasm_increment_by_map": {
+      "performance": 41624.13274368582,
+      "rme": 1.2734522176937177
+    },
+    "Wasm_increment_by_for": {
+      "performance": 641398.5721411464,
+      "rme": 0.12986100444141252
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1936
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49644583bd1d70c26aaa"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 345255.967838838,
+      "rme": 1.1891931032069096
+    },
+    "Array_increment_by_for": {
+      "performance": 818420.0884855421,
+      "rme": 0.14177713798610195
+    },
+    "Wasm_increment_by_map": {
+      "performance": 53385.14506837785,
+      "rme": 0.41369906498833087
+    },
+    "Wasm_increment_by_for": {
+      "performance": 827973.2180583238,
+      "rme": 0.13775230428395932
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1504
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49654583bd1d70c26aac"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 289545.48123256123,
+      "rme": 0.3980191972266336
+    },
+    "Array_increment_by_for": {
+      "performance": 693460.1746047748,
+      "rme": 0.13374372045086116
+    },
+    "Wasm_increment_by_map": {
+      "performance": 45261.78024295228,
+      "rme": 0.9221097541543445
+    },
+    "Wasm_increment_by_for": {
+      "performance": 694279.1559684577,
+      "rme": 0.13963792249107848
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1792
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49654583bd1d70c26aae"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 275770.6914857442,
+      "rme": 0.37757518077723834
+    },
+    "Array_increment_by_for": {
+      "performance": 660305.5791440299,
+      "rme": 0.2824536191679271
+    },
+    "Wasm_increment_by_map": {
+      "performance": 43448.09149574596,
+      "rme": 0.34765943779094205
+    },
+    "Wasm_increment_by_for": {
+      "performance": 665582.8279035271,
+      "rme": 0.13426754478656605
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1872
+  }
+},{
+  "_id": {
+    "$oid": "5fdf49654583bd1d70c26ab0"
+  },
+  "results": {
+    "Array_increment_by_map": {
+      "performance": 313414.00480703294,
+      "rme": 0.5777843891261254
+    },
+    "Array_increment_by_for": {
+      "performance": 749136.7279818979,
+      "rme": 0.1662648858339813
+    },
+    "Wasm_increment_by_map": {
+      "performance": 49204.93642464095,
+      "rme": 0.3103022402569172
+    },
+    "Wasm_increment_by_for": {
+      "performance": 753481.2009049628,
+      "rme": 0.11755937475991143
+    }
+  },
+  "subject": {
+    "name": "array_size",
+    "value": 1648
+  }
+}]
