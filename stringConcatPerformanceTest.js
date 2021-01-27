@@ -43,7 +43,7 @@ for (let sizeMultiplier = 1; sizeMultiplier < testsAmount; sizeMultiplier++) {
 		return recIt < len ? concatRecursiveUsingConcat(baseStr.concat(arrayForBenchmark[recIt]), ++recIt) : baseStr
 	}
 	const concatTailRecursive = (baseStr = "", recIt = 0) => {
-		return recIt >= len ? baseStr : concatRecursive(baseStr + arrayForBenchmark[recIt], ++recIt);
+		return recIt >= len ? baseStr : concatTailRecursive(baseStr + arrayForBenchmark[recIt], ++recIt);
 	}
 	suite
 		.add('concat with reduce()', concatReduce)
