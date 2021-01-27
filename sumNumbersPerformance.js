@@ -9,17 +9,20 @@ for (let sizeMultiplier = 1; sizeMultiplier <= testsAmount; sizeMultiplier++) {
 	const suite = new benchmark.Suite;
 	const len = 64 * sizeMultiplier;
 
-	const arrayForBenchmark = new initializeBenchmark(len);
-	const wasmForBenchmark = new initForWasm('u32', len);
+	const benchmarkStateArray = new initializeBenchmark(len);
+	const benchmarkStateWASM = new initForWasm('u32', len);
+
 	const incrementingFunction = (el, index) => index;
+	const arrayForBenchmark = benchmarkStateArray.baseArray;
+	const wasmForBenchmark = benchmarkStateWASM.baseArray;
 
 	arrayForBenchmark._map(incrementingFunction);
-	wasmForBenchmark._map(incrementingFunction)
+	wasmForBenchmark._map(incrementingFunction);
 
 	console.log(`\nBenchmarking for ${len} values. ${testsAmount - sizeMultiplier} benchmarks left to start`);
 
-	const sumReduce = () => arrayForBenchmark.reduce((acc, cur) => acc + cur, 0);
-	const sumWASMReduce = () => wasmForBenchmark.reduce((acc, cur) => acc + cur, 0);
+	const sumReduce = () => arrayForBenchmark.baseArray.reduce((acc, cur) => acc + cur, 0);
+	const sumWASMReduce = () => arrayForBenchmark.baseArray.reduce((acc, cur) => acc + cur, 0);
 	const sumFor = () => {
 		let sum = 0;
 		for (let sumIt = 0; sumIt < len; sumIt++) {
@@ -74,5 +77,5 @@ for (let sizeMultiplier = 1; sizeMultiplier <= testsAmount; sizeMultiplier++) {
 			const connect = new sendBenchmarkResultsToApiServer(event, 'array_size', len)
 			connect._send("sum_numbers");
 		})
-		.run({'async': true})
+		.run()
 }

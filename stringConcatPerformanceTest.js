@@ -2,17 +2,18 @@ import benchmark from "benchmark"
 import { sendBenchmarkResultsToApiServer } from "./sendBenchmarkResultsToApiServer.js";
 import { initializeBenchmark } from "./initializeBenchmark.js";
 
-const testsAmount = 512;
+const testsAmount = 2;
 
 
 for (let sizeMultiplier = 1; sizeMultiplier < testsAmount; sizeMultiplier++) {
 	const suite = new benchmark.Suite;
 	const len = sizeMultiplier * 2
 
-	const arrayForBenchmark = new initializeBenchmark(len);
-	const incrementingFunction = (el, index) => (-index).toString(30);
+	const benchmarkStateArray = new initializeBenchmark(len);
+	const incrementingFunction = (el, index) => index.toString(30);
+	const arrayForBenchmark = benchmarkStateArray.baseArray;
 
-	arrayForBenchmark._map(incrementingFunction())
+	benchmarkStateArray._map(incrementingFunction)
 
 	console.log(`${sizeMultiplier}. Benchmarking for ${len} values. ${testsAmount - sizeMultiplier} benchmarks left to start`);
 
@@ -22,7 +23,6 @@ for (let sizeMultiplier = 1; sizeMultiplier < testsAmount; sizeMultiplier++) {
 	const concatFor = () => {
 		"use strict"
 		let baseString = "";
-
 		for (let forIt = 0; forIt < len; forIt++) {
 			baseString += arrayForBenchmark[forIt];
 		}
@@ -56,7 +56,7 @@ for (let sizeMultiplier = 1; sizeMultiplier < testsAmount; sizeMultiplier++) {
 		.add('concat recursive with concat function', concatRecursiveUsingConcat)
 		.on('cycle', (ev) => {
 			// Resetting values;
-			arrayForBenchmark._map(incrementingFunction())
+			benchmarkStateArray._map(incrementingFunction)
 			console.log("\t", len, String(ev.target));
 		})
 		.on('complete', (ev) => {

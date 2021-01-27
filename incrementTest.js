@@ -2,7 +2,7 @@ import benchmark from "benchmark"
 import { sendBenchmarkResultsToApiServer } from "./sendBenchmarkResultsToApiServer.js";
 import { initForWasm, initializeBenchmark } from "./initializeBenchmark.js"
 
-const testsAmount = 2048;
+const testsAmount = 6;
 /*
 * Every tested function must return an incremented array / wasmarray.
 * Ex:
@@ -12,32 +12,32 @@ const testsAmount = 2048;
 
 for (let sizeMultiplier = 1; sizeMultiplier <= testsAmount; sizeMultiplier++) {
 	const suite = new benchmark.Suite;
-	const len = 64 * sizeMultiplier;
+	const len = Math.floor(64 * sizeMultiplier);
 
-	const arrayInit = new initializeBenchmark(len);
-	const wasmInit = new initForWasm('u32', len);
+	const benchmarkStateArray = new initializeBenchmark(len);
+	const benchmarkStateWASM = new initForWasm('u32', len);
 
-	const arrayForBenchmark = arrayInit.baseArray;
-	const wasmForBenchmark = wasmInit.wasmArray;
 	const incrementingFunction = (el, index) => index;
+	const arrayForBenchmark = benchmarkStateArray.baseArray;
+	const wasmForBenchmark = benchmarkStateWASM.baseArray;
 
-	arrayInit._map(incrementingFunction);
-	wasmInit._map(incrementingFunction);
+	arrayForBenchmark._map(incrementingFunction);
+	wasmForBenchmark._map(incrementingFunction);
 
 	console.log(`${sizeMultiplier}. Benchmarking for ${len} values. ${testsAmount - sizeMultiplier} benchmarks left to start`);
 
-	const arrIncrMap = () => arrayForBenchmark.map((el, index) => el + index);
+	const arrIncrMap = () => wasmForBenchmark.baseArray.map((el, index) => el + index);
 	const arrIncrFor = () => {
-		const arr = arrayInit.baseArray;
+		const arr = wasmForBenchmark.baseArray;
 		for (let index = 0; index < len; index++) {
 			arr[index] += index;
 		}
 		return arr;
 	}
 
-	const wasmIncrMap = () => wasmForBenchmark.map((el, index) => el + index);
+	const wasmIncrMap = () => wasmForBenchmark.baseArray.map((el, index) => el + index);
 	const wasmIncrFor = () => {
-		const arr = wasmInit.wasmArray;
+		const arr = wasmForBenchmark.baseArray;
 		for (let index = 0; index < len; index++) {
 			arr[index] += index;
 		}
@@ -50,16 +50,16 @@ for (let sizeMultiplier = 1; sizeMultiplier <= testsAmount; sizeMultiplier++) {
 		.add('Wasm increment by map', wasmIncrMap)
 		.add('Wasm increment by for', wasmIncrFor)
 		.on('cycle', (event) => {
-			// console.log(`\t ${len} ${String(event.target)}`)
+			console.log(`\t ${len} ${String(event.target)}`)
 			// Resetting values.
-			arrayInit._map(incrementingFunction);
-			wasmInit._map(incrementingFunction);
+			arrayForBenchmark._map(incrementingFunction);
+			wasmForBenchmark._map(incrementingFunction);
 
 		})
 		.on('complete', (ev) => {
 			const conn = new sendBenchmarkResultsToApiServer(ev, 'array_size', len);
 			conn._send('return_incremented_array');
 		})
-		.run({async: true});
+		.run(/*{async: true}*/);
 }
 
