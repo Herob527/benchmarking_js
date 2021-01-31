@@ -8,6 +8,7 @@ import { oldDebruijn } from "./bench_debrujin/pre-refactor.js";
 
 const alphabet = 'ABCDE123'.split('');
 const length = 5;
+
 for (let index = 1; index <= length; index++) {
 	console.log(`${index}. Benchmarks left: ${length - index}`)
 	const benchmarkValues = new initializeBenchmark(alphabet.length, {_length: index});

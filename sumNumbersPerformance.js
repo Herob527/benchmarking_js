@@ -3,7 +3,7 @@ import { sendBenchmarkResultsToApiServer } from "./sendBenchmarkResultsToApiServ
 import { initForWasm, initializeBenchmark } from "./initializeBenchmark.js";
 
 const testsAmount = 32;
-
+let testsDone = 0;
 
 for (let sizeMultiplier = 1; sizeMultiplier <= testsAmount; sizeMultiplier++) {
 	const suite = new benchmark.Suite;
@@ -16,13 +16,13 @@ for (let sizeMultiplier = 1; sizeMultiplier <= testsAmount; sizeMultiplier++) {
 	const arrayForBenchmark = benchmarkStateArray.baseArray;
 	const wasmForBenchmark = benchmarkStateWASM.baseArray;
 
-	arrayForBenchmark._map(incrementingFunction);
-	wasmForBenchmark._map(incrementingFunction);
+	benchmarkStateArray._map(incrementingFunction);
+	benchmarkStateWASM._map(incrementingFunction);
 
 	console.log(`\nBenchmarking for ${len} values. ${testsAmount - sizeMultiplier} benchmarks left to start`);
 
-	const sumReduce = () => arrayForBenchmark.baseArray.reduce((acc, cur) => acc + cur, 0);
-	const sumWASMReduce = () => arrayForBenchmark.baseArray.reduce((acc, cur) => acc + cur, 0);
+	const sumReduce = () => arrayForBenchmark.reduce((acc, cur) => acc + cur, 0);
+	const sumWASMReduce = () => arrayForBenchmark.reduce((acc, cur) => acc + cur, 0);
 	const sumFor = () => {
 		let sum = 0;
 		for (let sumIt = 0; sumIt < len; sumIt++) {
@@ -75,12 +75,13 @@ for (let sizeMultiplier = 1; sizeMultiplier <= testsAmount; sizeMultiplier++) {
 		.on('cycle', (event) => {
 			console.log(`\t ${len} ${String(event.target)}`)
 			// Resetting values.
-			arrayForBenchmark._map(incrementingFunction);
-			wasmForBenchmark._map(incrementingFunction);
+			benchmarkStateArray._map(incrementingFunction);
+			benchmarkStateWASM._map(incrementingFunction);
 
 		})
 		.on('complete', (event) => {
 			const connect = new sendBenchmarkResultsToApiServer(event, 'array_size', len)
+			console.log(`${++testsDone}\\${testsAmount}`);
 			connect._send("sum_numbers");
 		})
 		.run({async: true})

@@ -3,14 +3,14 @@ import { sendBenchmarkResultsToApiServer } from "./sendBenchmarkResultsToApiServ
 import { initializeBenchmark } from "./initializeBenchmark.js";
 
 const testsAmount = 256;
-
+let testsDone = 0;
 
 for (let sizeMultiplier = 1; sizeMultiplier <= testsAmount; sizeMultiplier++) {
 	const suite = new benchmark.Suite;
 	const len = sizeMultiplier * 2
 
-	const benchmarkStateArray = new initializeBenchmark(len);
 	const incrementingFunction = (el, index) => index.toString(30);
+	const benchmarkStateArray = new initializeBenchmark(len);
 	const arrayForBenchmark = benchmarkStateArray.baseArray;
 
 	benchmarkStateArray._map(incrementingFunction)
@@ -64,6 +64,7 @@ for (let sizeMultiplier = 1; sizeMultiplier <= testsAmount; sizeMultiplier++) {
 		})
 		.on('complete', (ev) => {
 			const connect = new sendBenchmarkResultsToApiServer(ev, 'array_size', len);
+			console.log(`${++testsDone}\\${testsAmount}`);
 			connect._send('string_concat');
 		})
 		.run({async: true});
