@@ -2,10 +2,10 @@ import benchmark from "benchmark"
 import { sendBenchmarkResultsToApiServer } from "./sendBenchmarkResultsToApiServer.js";
 import { initializeBenchmark } from "./initializeBenchmark.js";
 
-const testsAmount = 2;
+const testsAmount = 256;
 
 
-for (let sizeMultiplier = 1; sizeMultiplier < testsAmount; sizeMultiplier++) {
+for (let sizeMultiplier = 1; sizeMultiplier <= testsAmount; sizeMultiplier++) {
 	const suite = new benchmark.Suite;
 	const len = sizeMultiplier * 2
 
@@ -44,6 +44,9 @@ for (let sizeMultiplier = 1; sizeMultiplier < testsAmount; sizeMultiplier++) {
 	}
 	const concatTailRecursive = (baseStr = "", recIt = 0) => {
 		return recIt >= len ? baseStr : concatTailRecursive(baseStr + arrayForBenchmark[recIt], ++recIt);
+	}
+	const concatTailRecursiveUsingConcat = (baseStr = "", recIt = 0) => {
+		return recIt >= len ? baseStr : concatTailRecursiveUsingConcat(baseStr.concat(arrayForBenchmark[recIt]) , ++recIt);
 	}
 	suite
 		.add('concat with reduce()', concatReduce)
